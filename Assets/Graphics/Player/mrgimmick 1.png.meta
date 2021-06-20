@@ -1,0 +1,1992 @@
+fileFormatVersion: 2
+guid: 4a12505f2b61da14e9217a85d559a019
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7013253336381936306
+    second: mrgimmick 1_0
+  - first:
+      213: -4104531637156126806
+    second: mrgimmick 1_1
+  - first:
+      213: 6881525256814815426
+    second: mrgimmick 1_2
+  - first:
+      213: -4050860920447602781
+    second: mrgimmick 1_3
+  - first:
+      213: 6832470141598299950
+    second: mrgimmick 1_4
+  - first:
+      213: -5520198842449635926
+    second: mrgimmick 1_5
+  - first:
+      213: 2327992090846867907
+    second: mrgimmick 1_6
+  - first:
+      213: -5346265187622043986
+    second: mrgimmick 1_7
+  - first:
+      213: 5361063090424900866
+    second: mrgimmick 1_8
+  - first:
+      213: -1537308545507453167
+    second: mrgimmick 1_9
+  - first:
+      213: -3117806965837771300
+    second: mrgimmick 1_10
+  - first:
+      213: 1092338343932305492
+    second: mrgimmick 1_11
+  - first:
+      213: 6539414236967377879
+    second: mrgimmick 1_12
+  - first:
+      213: 1488723263024058042
+    second: mrgimmick 1_13
+  - first:
+      213: 2216528214824902844
+    second: mrgimmick 1_14
+  - first:
+      213: 1094892777128897497
+    second: mrgimmick 1_17
+  - first:
+      213: -110215890691130616
+    second: mrgimmick 1_20
+  - first:
+      213: 695828193710955041
+    second: mrgimmick 1_21
+  - first:
+      213: 1414867072366760117
+    second: mrgimmick 1_22
+  - first:
+      213: 503824902332943451
+    second: mrgimmick 1_23
+  - first:
+      213: -8609219645046361599
+    second: mrgimmick 1_24
+  - first:
+      213: -902204032260993580
+    second: mrgimmick 1_25
+  - first:
+      213: -7105112016222852305
+    second: mrgimmick 1_26
+  - first:
+      213: -5340469002519658660
+    second: mrgimmick 1_27
+  - first:
+      213: -5197538639890114514
+    second: mrgimmick 1_28
+  - first:
+      213: -7432341532309750003
+    second: mrgimmick 1_29
+  - first:
+      213: 4900619795747241226
+    second: mrgimmick 1_30
+  - first:
+      213: 7298705646616601103
+    second: mrgimmick 1_31
+  - first:
+      213: -3069369907811842896
+    second: mrgimmick 1_32
+  - first:
+      213: -1211912646607545029
+    second: mrgimmick 1_33
+  - first:
+      213: -5869992725345584267
+    second: mrgimmick 1_34
+  - first:
+      213: 1774085602587816070
+    second: mrgimmick 1_35
+  - first:
+      213: 5643648198704393590
+    second: mrgimmick 1_36
+  - first:
+      213: 1632320061573533130
+    second: mrgimmick 1_37
+  - first:
+      213: -4748008906769487493
+    second: mrgimmick 1_38
+  - first:
+      213: 7002706118985471756
+    second: mrgimmick 1_39
+  - first:
+      213: -5418639343634415333
+    second: mrgimmick 1_40
+  - first:
+      213: 6061109346330886415
+    second: mrgimmick 1_41
+  - first:
+      213: -7171667609467692392
+    second: mrgimmick 1_42
+  - first:
+      213: -8698019507384883603
+    second: mrgimmick 1_43
+  - first:
+      213: 2516018907934311324
+    second: mrgimmick 1_44
+  - first:
+      213: 1703312375460625997
+    second: mrgimmick 1_45
+  - first:
+      213: 1194220739620586463
+    second: mrgimmick 1_46
+  - first:
+      213: -709255521184280511
+    second: mrgimmick 1_47
+  - first:
+      213: 7138211964949158846
+    second: mrgimmick 1_48
+  - first:
+      213: 1377587808142516667
+    second: mrgimmick 1_49
+  - first:
+      213: -6455824930475730390
+    second: mrgimmick 1_50
+  - first:
+      213: -505990770222321877
+    second: mrgimmick 1_51
+  - first:
+      213: -1048484019481155401
+    second: mrgimmick 1_56
+  - first:
+      213: -3278818027466122369
+    second: mrgimmick 1_57
+  - first:
+      213: -5480773126773816212
+    second: mrgimmick 1_58
+  - first:
+      213: -8548890221795955884
+    second: mrgimmick 1_59
+  - first:
+      213: -5871593857509672477
+    second: mrgimmick 1_60
+  - first:
+      213: -4939492276486361706
+    second: mrgimmick 1_67
+  - first:
+      213: 960152357213497989
+    second: mrgimmick 1_68
+  - first:
+      213: 7983624349173197231
+    second: mrgimmick 1_72
+  - first:
+      213: 4869978055753912159
+    second: mrgimmick 1_73
+  - first:
+      213: -9065740961735428701
+    second: mrgimmick 1_74
+  - first:
+      213: -8301062282048694561
+    second: mrgimmick 1_75
+  - first:
+      213: -1392189699596056505
+    second: mrgimmick 1_80
+  - first:
+      213: -2838420369281513641
+    second: mrgimmick 1_81
+  - first:
+      213: 7381787646936292235
+    second: mrgimmick 1_82
+  - first:
+      213: -9135617598680686494
+    second: mrgimmick 1_83
+  - first:
+      213: 7846329182065127325
+    second: mrgimmick 1_84
+  - first:
+      213: -1190538708137892760
+    second: mrgimmick 1_85
+  - first:
+      213: -5365383019777584442
+    second: mrgimmick 1_86
+  - first:
+      213: 1354758309171944502
+    second: mrgimmick 1_87
+  - first:
+      213: 1409218395266619944
+    second: mrgimmick 1_88
+  - first:
+      213: 4854868419132712016
+    second: mrgimmick 1_89
+  - first:
+      213: 6613602539282409488
+    second: mrgimmick 1_90
+  - first:
+      213: 3253516772140695701
+    second: mrgimmick 1_91
+  - first:
+      213: 426433758581819080
+    second: mrgimmick 1_92
+  - first:
+      213: 6084070108297015291
+    second: mrgimmick 1_93
+  - first:
+      213: 5211517590568065929
+    second: mrgimmick 1_94
+  - first:
+      213: -3194138611250060622
+    second: mrgimmick 1_95
+  - first:
+      213: 9002102934509318655
+    second: mrgimmick 1_96
+  - first:
+      213: 6763788381747913310
+    second: mrgimmick 1_97
+  - first:
+      213: 2393141761872133991
+    second: mrgimmick 1_52
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mrgimmick 1_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 250
+        width: 17
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4da1259f3bebae90800000000000000
+      internalID: -7013253336381936306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 250
+        width: 17
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafd4f50936c907c0800000000000000
+      internalID: -4104531637156126806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 262
+        width: 12
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8635dd2c6108f50800000000000000
+      internalID: 6881525256814815426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 228
+        width: 21
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af653a847378c7c0800000000000000
+      internalID: -4050860920447602781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 228
+        width: 19
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27fd60d46fc1de50800000000000000
+      internalID: 6832470141598299950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 228
+        width: 18
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5544a66605463b0800000000000000
+      internalID: -5520198842449635926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_6
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 229
+        width: 20
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1b8dee870be4020800000000000000
+      internalID: 2327992090846867907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 228
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae30c833204ec5b0800000000000000
+      internalID: -5346265187622043986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 228
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20deb330a72566a40800000000000000
+      internalID: 5361063090424900866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 228
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1171bdad5026aaae0800000000000000
+      internalID: -1537308545507453167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 228
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd400b55135bb4d0800000000000000
+      internalID: -3117806965837771300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 228
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450af94bfe3c82f00800000000000000
+      internalID: 1092338343932305492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 228
+        width: 17
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db9299e99aa0ca50800000000000000
+      internalID: 6539414236967377879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 201
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abec86d8be109a410800000000000000
+      internalID: 1488723263024058042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_14
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 205
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0e44feaa0b2ce10800000000000000
+      internalID: 2216528214824902844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 174
+        width: 19
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dba8e70e27d13f00800000000000000
+      internalID: 1094892777128897497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_20
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 174
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b70ca3b3f687ef0800000000000000
+      internalID: -110215890691130616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_21
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 174
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ad7d63e0418a900800000000000000
+      internalID: 695828193710955041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_22
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 174
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b051d42b1e92a310800000000000000
+      internalID: 1414867072366760117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 174
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c0d8c4412fdf600800000000000000
+      internalID: 503824902332943451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 174
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10272bfa858e58880800000000000000
+      internalID: -8609219645046361599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_25
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 174
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd8826763aba73f0800000000000000
+      internalID: -902204032260993580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 174
+        width: 23
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b6da70442956d90800000000000000
+      internalID: -7105112016222852305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_27
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 174
+        width: 17
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fb4dabcb7d2e5b0800000000000000
+      internalID: -5340469002519658660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_28
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 174
+        width: 18
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e289bfe0522aed7b0800000000000000
+      internalID: -5197538639890114514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_29
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 174
+        width: 19
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f7b4d21c40bd890800000000000000
+      internalID: -7432341532309750003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 151
+        width: 17
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0df2c85dbf720440800000000000000
+      internalID: 4900619795747241226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_31
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 151
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0268ba8d163a4560800000000000000
+      internalID: 7298705646616601103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_32
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 136
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b40a90c4586765d0800000000000000
+      internalID: -3069369907811842896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_33
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 122
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d57207edb6e2fe0800000000000000
+      internalID: -1211912646607545029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_34
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 122
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b36a387b8998ea0800000000000000
+      internalID: -5869992725345584267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_35
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 112
+        width: 20
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680b16fb471de9810800000000000000
+      internalID: 1774085602587816070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_36
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 112
+        width: 20
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d6c09a224425e40800000000000000
+      internalID: 5643648198704393590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_37
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 112
+        width: 20
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd85d5927a27a610800000000000000
+      internalID: 1632320061573533130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_38
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 112
+        width: 20
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b792d992e0fab1eb0800000000000000
+      internalID: -4748008906769487493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_39
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 110
+        width: 22
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0755900d1c9e2160800000000000000
+      internalID: 7002706118985471756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_40
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 110
+        width: 21
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1107b4e9302dc4b0800000000000000
+      internalID: -5418639343634415333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_41
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 112
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f014adc56d26d1450800000000000000
+      internalID: 6061109346330886415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_42
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 110
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ad08a6e4e197c90800000000000000
+      internalID: -7171667609467692392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_43
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 110
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66e7e4975d6a4780800000000000000
+      internalID: -8698019507384883603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 110
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c934797cdd1bae220800000000000000
+      internalID: 2516018907934311324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_45
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 114
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e7bd8b49163a710800000000000000
+      internalID: 1703312375460625997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_46
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 114
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd34d787f69b29010800000000000000
+      internalID: 1194220739620586463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_47
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 116
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14093dc7cd73826f0800000000000000
+      internalID: -709255521184280511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_48
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 114
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbdc3656f5001360800000000000000
+      internalID: 7138211964949158846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_49
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 114
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb16e3f00dc2e1310800000000000000
+      internalID: 1377587808142516667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_50
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 116
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a12ee1e6d4866a0800000000000000
+      internalID: -6455824930475730390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_51
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 116
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fa549431c5af8f0800000000000000
+      internalID: -505990770222321877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_56
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 91
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8e622e6590371f0800000000000000
+      internalID: -1048484019481155401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_57
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 91
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b1cbd306c4f72d0800000000000000
+      internalID: -3278818027466122369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_58
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 92
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64c32c21e160f3b0800000000000000
+      internalID: -5480773126773816212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_59
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 78
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45baa0223ad3c5980800000000000000
+      internalID: -8548890221795955884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_60
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 70
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e935c1ee78e38ea0800000000000000
+      internalID: -5871593857509672477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_67
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 69
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dae31f1f5637bb0800000000000000
+      internalID: -4939492276486361706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_68
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 70
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ae6f55b75235d00800000000000000
+      internalID: 960152357213497989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_72
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 59
+        width: 6
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9a0a8eb088bce60800000000000000
+      internalID: 7983624349173197231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_73
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 59
+        width: 6
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fc82d4d33a59340800000000000000
+      internalID: 4869978055753912159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_74
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 58
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a53d0ea0a4003280800000000000000
+      internalID: -9065740961735428701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_75
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 58
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6181cd5d3bccc80800000000000000
+      internalID: -8301062282048694561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 35
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7488e9728d2fdace0800000000000000
+      internalID: -1392189699596056505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 39
+        width: 18
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7570eb576b7eb98d0800000000000000
+      internalID: -2838420369281513641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_82
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 39
+        width: 6
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b110721c0617660800000000000000
+      internalID: 7381787646936292235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_83
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 38
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260a4d25234c73180800000000000000
+      internalID: -9135617598680686494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_84
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 38
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fe5c7c1d2c3ec60800000000000000
+      internalID: 7846329182065127325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_85
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 9
+        width: 24
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864a61a4a5b5a7fe0800000000000000
+      internalID: -1190538708137892760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_86
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 18
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c29e3e02945a85b0800000000000000
+      internalID: -5365383019777584442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_87
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 14
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cd3be11811dc210800000000000000
+      internalID: 1354758309171944502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_88
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 12
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a10d40aac8e8310800000000000000
+      internalID: 1409218395266619944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_89
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 12
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054eaa1ea15ff5340800000000000000
+      internalID: 4854868419132712016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_90
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 228
+        width: 17
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018ac87187c38cb50800000000000000
+      internalID: 6613602539282409488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_91
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 228
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590c8323440d62d20800000000000000
+      internalID: 3253516772140695701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_92
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 114
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6018c7e3ffae500800000000000000
+      internalID: 426433758581819080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_93
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 91
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffad995785fe6450800000000000000
+      internalID: 6084070108297015291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_94
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 71
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b528603a7035840800000000000000
+      internalID: 5211517590568065929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_95
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 62
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2a4193bd32ca3d0800000000000000
+      internalID: -3194138611250060622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_96
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 52
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1fdea7ce4edec70800000000000000
+      internalID: 9002102934509318655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_97
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 48
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52aff572bdcddd50800000000000000
+      internalID: 6763788381747913310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrgimmick 1_52
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 8
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f7a85c0c5263120800000000000000
+      internalID: 2393141761872133991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

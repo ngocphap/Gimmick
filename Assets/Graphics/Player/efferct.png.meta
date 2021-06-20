@@ -1,0 +1,1200 @@
+fileFormatVersion: 2
+guid: 13ff47364b9a52e40bc6c1383063af24
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8054401964118896973
+    second: efferct_0
+  - first:
+      213: -3065616420183788845
+    second: efferct_1
+  - first:
+      213: 7369321950293870920
+    second: efferct_2
+  - first:
+      213: 5523182403833026794
+    second: efferct_3
+  - first:
+      213: 1575550152372091750
+    second: efferct_4
+  - first:
+      213: -6964817007564077905
+    second: efferct_5
+  - first:
+      213: -1497898234561536725
+    second: efferct_6
+  - first:
+      213: -5125221381117583286
+    second: efferct_7
+  - first:
+      213: -1195096757784675623
+    second: efferct_8
+  - first:
+      213: 2012466767273098410
+    second: efferct_9
+  - first:
+      213: 8751863947159890284
+    second: efferct_10
+  - first:
+      213: 134604972699841492
+    second: efferct_11
+  - first:
+      213: -5379335001048612605
+    second: efferct_12
+  - first:
+      213: -297288630366078293
+    second: efferct_13
+  - first:
+      213: -3407938107490507083
+    second: efferct_14
+  - first:
+      213: 3427457985733527754
+    second: efferct_15
+  - first:
+      213: -3614275833173637371
+    second: efferct_16
+  - first:
+      213: 839739997754339376
+    second: efferct_17
+  - first:
+      213: -1456637133625131150
+    second: efferct_18
+  - first:
+      213: -8761272169593828025
+    second: efferct_19
+  - first:
+      213: 3620186034821411306
+    second: efferct_20
+  - first:
+      213: 4821478345861322368
+    second: efferct_21
+  - first:
+      213: 5970590251872525478
+    second: efferct_22
+  - first:
+      213: -5422082353131509847
+    second: efferct_23
+  - first:
+      213: -1190695450486225535
+    second: efferct_24
+  - first:
+      213: -2962845147131439353
+    second: efferct_25
+  - first:
+      213: -2808262093918420838
+    second: efferct_26
+  - first:
+      213: 5400069468951270120
+    second: efferct_27
+  - first:
+      213: 4283597349180866361
+    second: efferct_28
+  - first:
+      213: -6503031670150938764
+    second: efferct_29
+  - first:
+      213: -4035852701406973320
+    second: efferct_30
+  - first:
+      213: 7430017228347830443
+    second: efferct_31
+  - first:
+      213: 2255203303366603338
+    second: efferct_32
+  - first:
+      213: -4729033978495888258
+    second: efferct_33
+  - first:
+      213: -3931523203210068066
+    second: efferct_34
+  - first:
+      213: 2011814972244086013
+    second: efferct_35
+  - first:
+      213: -2410842404069575683
+    second: efferct_36
+  - first:
+      213: -9106558167771970487
+    second: efferct_37
+  - first:
+      213: 7152781994219026252
+    second: efferct_38
+  - first:
+      213: -977155715410822733
+    second: efferct_39
+  - first:
+      213: -3715754705671244388
+    second: efferct_40
+  - first:
+      213: 715709129403983991
+    second: efferct_41
+  - first:
+      213: 6024806003740934075
+    second: efferct_42
+  - first:
+      213: -4568901191244577970
+    second: efferct_43
+  - first:
+      213: -5711473401206247835
+    second: efferct_44
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: efferct_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 224
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41f38d89ebf6cf60800000000000000
+      internalID: 8054401964118896973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 204
+        width: 86
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d23751bb1eb475d0800000000000000
+      internalID: -3065616420183788845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 219
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84941caf447154660800000000000000
+      internalID: 7369321950293870920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 216
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8d72a122946ac40800000000000000
+      internalID: 5523182403833026794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 214
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b73f5148a7dd510800000000000000
+      internalID: 1575550152372091750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 112
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa44b8235dff75f90800000000000000
+      internalID: -6964817007564077905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 109
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d564bed75663be0800000000000000
+      internalID: -1497898234561536725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_7
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 107
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40ef37fe4e8fd8b0800000000000000
+      internalID: -5125221381117583286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 160
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9daf508a4d92a6fe0800000000000000
+      internalID: -1195096757784675623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 112
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac7791ccd7bdeb10800000000000000
+      internalID: 2012466767273098410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_10
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 169
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69630df3edd47970800000000000000
+      internalID: 8751863947159890284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_11
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 165
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d376ce62863ed100800000000000000
+      internalID: 134604972699841492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_12
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 175
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3010ca64153c855b0800000000000000
+      internalID: -5379335001048612605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_13
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 160
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa7447d091dfdbf0800000000000000
+      internalID: -297288630366078293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 111
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6e286e85294b0d0800000000000000
+      internalID: -3407938107490507083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_15
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 156
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8093ae0e6c09f20800000000000000
+      internalID: 3427457985733527754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_16
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 104
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507086b674387ddc0800000000000000
+      internalID: -3614275833173637371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_17
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 102
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030b5dd241b57ab00800000000000000
+      internalID: 839739997754339376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 80
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f71ab9e3cf8cbe0800000000000000
+      internalID: -1456637133625131150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_19
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 81
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d08d68165b96680800000000000000
+      internalID: -8761272169593828025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae13c52a40c7d3230800000000000000
+      internalID: 3620186034821411306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_21
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 73
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0865d41a20559e240800000000000000
+      internalID: 4821478345861322368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_22
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 74
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac9546533ccbd250800000000000000
+      internalID: 5970590251872525478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_23
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 76
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7aea6c3d4e0c4b0800000000000000
+      internalID: -5422082353131509847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 70
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185481edbccc97fe0800000000000000
+      internalID: -1190695450486225535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_25
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 66
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7079db8590cd1e6d0800000000000000
+      internalID: -2962845147131439353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_26
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 60
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a904ccf118c0709d0800000000000000
+      internalID: -2808262093918420838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_27
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 50
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2d54b3296e0fa40800000000000000
+      internalID: 5400069468951270120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_28
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 52
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ffab6f715627b30800000000000000
+      internalID: 4283597349180866361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_29
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 37
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fb989862790c5a0800000000000000
+      internalID: -6503031670150938764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_30
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 43
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87236d6d955cdf7c0800000000000000
+      internalID: -4035852701406973320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba074b2ad49bc1760800000000000000
+      internalID: 7430017228347830443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 28
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a423471b4771c4f10800000000000000
+      internalID: 2255203303366603338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_33
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 21
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74100de6a81f5eb0800000000000000
+      internalID: -4729033978495888258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_34
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 17
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f357e0a7c6079c0800000000000000
+      internalID: -3931523203210068066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_35
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 14
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfccb66ee076beb10800000000000000
+      internalID: 2011814972244086013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_36
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 10
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3fbff4b97fa8ed0800000000000000
+      internalID: -2410842404069575683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_37
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 10
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944058358910f9180800000000000000
+      internalID: -9106558167771970487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_38
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 5
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c473c31a359c34360800000000000000
+      internalID: 7152781994219026252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_39
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 12
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9f1b4dd027072f0800000000000000
+      internalID: -977155715410822733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 3
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95baf738ccfe6cc0800000000000000
+      internalID: -3715754705671244388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_41
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778e0a449a5bee900800000000000000
+      internalID: 715709129403983991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 93
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf7e9db3296c9350800000000000000
+      internalID: 6024806003740934075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_43
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 104
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43020ad2900890c0800000000000000
+      internalID: -4568901191244577970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efferct_44
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 102
+        width: 86
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e6209c335ccb0b0800000000000000
+      internalID: -5711473401206247835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

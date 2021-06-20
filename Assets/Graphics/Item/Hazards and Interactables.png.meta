@@ -1,0 +1,2112 @@
+fileFormatVersion: 2
+guid: e7f90fdd9dec7474798c0b90e460d913
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4672166943343626827
+    second: Hazards and Interactables_0
+  - first:
+      213: 1642269264760848436
+    second: Hazards and Interactables_1
+  - first:
+      213: -2229820246356527460
+    second: Hazards and Interactables_2
+  - first:
+      213: 5772623207312283393
+    second: Hazards and Interactables_3
+  - first:
+      213: 6734273324987400143
+    second: Hazards and Interactables_4
+  - first:
+      213: -7370149682042414425
+    second: Hazards and Interactables_5
+  - first:
+      213: 1958019770126687374
+    second: Hazards and Interactables_6
+  - first:
+      213: -3907728139153494514
+    second: Hazards and Interactables_7
+  - first:
+      213: 6344410597342673226
+    second: Hazards and Interactables_8
+  - first:
+      213: -6266679712612458888
+    second: Hazards and Interactables_9
+  - first:
+      213: -8499513673365066039
+    second: Hazards and Interactables_10
+  - first:
+      213: -7590385921528211629
+    second: Hazards and Interactables_11
+  - first:
+      213: -1996311531153470415
+    second: Hazards and Interactables_12
+  - first:
+      213: -1512351864525573468
+    second: Hazards and Interactables_13
+  - first:
+      213: 8180549555971407706
+    second: Hazards and Interactables_14
+  - first:
+      213: -201959384469458633
+    second: Hazards and Interactables_15
+  - first:
+      213: -2968959550534601654
+    second: Hazards and Interactables_16
+  - first:
+      213: -924005418584479562
+    second: Hazards and Interactables_17
+  - first:
+      213: 4509366533656366199
+    second: Hazards and Interactables_18
+  - first:
+      213: -1183737061839903754
+    second: Hazards and Interactables_19
+  - first:
+      213: -1940277292097789992
+    second: Hazards and Interactables_20
+  - first:
+      213: -4423249828660830522
+    second: Hazards and Interactables_21
+  - first:
+      213: -1557863915546338684
+    second: Hazards and Interactables_22
+  - first:
+      213: -8411707235139603620
+    second: Hazards and Interactables_23
+  - first:
+      213: 3980158285752057107
+    second: Hazards and Interactables_24
+  - first:
+      213: -5601056702648720875
+    second: Hazards and Interactables_25
+  - first:
+      213: 7276874900669200953
+    second: Hazards and Interactables_26
+  - first:
+      213: 5527945493275041745
+    second: Hazards and Interactables_27
+  - first:
+      213: -2207316896787066533
+    second: Hazards and Interactables_28
+  - first:
+      213: -3542071147835373284
+    second: Hazards and Interactables_29
+  - first:
+      213: 9154550609466848086
+    second: Hazards and Interactables_30
+  - first:
+      213: 7908552742276814477
+    second: Hazards and Interactables_31
+  - first:
+      213: -4456271343374602197
+    second: Hazards and Interactables_32
+  - first:
+      213: 1450731738274756328
+    second: Hazards and Interactables_33
+  - first:
+      213: -8824881265567621051
+    second: Hazards and Interactables_34
+  - first:
+      213: 4128467893132279269
+    second: Hazards and Interactables_35
+  - first:
+      213: -911022444887368783
+    second: Hazards and Interactables_36
+  - first:
+      213: 735323363441703629
+    second: Hazards and Interactables_37
+  - first:
+      213: -478934225965769696
+    second: Hazards and Interactables_38
+  - first:
+      213: 7304534163814799612
+    second: Hazards and Interactables_39
+  - first:
+      213: 747023926848304364
+    second: Hazards and Interactables_40
+  - first:
+      213: -5997275963283478483
+    second: Hazards and Interactables_41
+  - first:
+      213: -6005591448630908665
+    second: Hazards and Interactables_42
+  - first:
+      213: -1804455880795472137
+    second: Hazards and Interactables_43
+  - first:
+      213: -6795684343048635737
+    second: Hazards and Interactables_44
+  - first:
+      213: 5915093768295582198
+    second: Hazards and Interactables_45
+  - first:
+      213: -3850102777738692405
+    second: Hazards and Interactables_46
+  - first:
+      213: 8370304446839420353
+    second: Hazards and Interactables_47
+  - first:
+      213: -6116144187331047372
+    second: Hazards and Interactables_48
+  - first:
+      213: -8847248090377392700
+    second: Hazards and Interactables_49
+  - first:
+      213: 6127578495514697608
+    second: Hazards and Interactables_50
+  - first:
+      213: -7930010408138469276
+    second: Hazards and Interactables_51
+  - first:
+      213: -6963656210842851794
+    second: Hazards and Interactables_52
+  - first:
+      213: 7721279106450704291
+    second: Hazards and Interactables_53
+  - first:
+      213: -1842559272221139612
+    second: Hazards and Interactables_54
+  - first:
+      213: -2489421693784711412
+    second: Hazards and Interactables_55
+  - first:
+      213: -4085422519660760884
+    second: Hazards and Interactables_56
+  - first:
+      213: -29655651780325674
+    second: Hazards and Interactables_57
+  - first:
+      213: -5302788963036306575
+    second: Hazards and Interactables_58
+  - first:
+      213: -4572965088921087977
+    second: Hazards and Interactables_59
+  - first:
+      213: -1414653985629185427
+    second: Hazards and Interactables_60
+  - first:
+      213: -7876479326406380257
+    second: Hazards and Interactables_61
+  - first:
+      213: -3221788851513524937
+    second: Hazards and Interactables_62
+  - first:
+      213: -4785132704311280290
+    second: Hazards and Interactables_63
+  - first:
+      213: 6185471568658183726
+    second: Hazards and Interactables_64
+  - first:
+      213: 5235076300919387829
+    second: Hazards and Interactables_65
+  - first:
+      213: -2106186263380647639
+    second: Hazards and Interactables_66
+  - first:
+      213: -4271449830213425885
+    second: Hazards and Interactables_67
+  - first:
+      213: 748933881520857850
+    second: Hazards and Interactables_68
+  - first:
+      213: -8161967728270791672
+    second: Hazards and Interactables_69
+  - first:
+      213: -7412256204124072600
+    second: Hazards and Interactables_72
+  - first:
+      213: -6063487945554256587
+    second: Hazards and Interactables_73
+  - first:
+      213: 1999390960706768305
+    second: Hazards and Interactables_74
+  - first:
+      213: 5313415612108105741
+    second: Hazards and Interactables_75
+  - first:
+      213: -4999585718551991568
+    second: Hazards and Interactables_76
+  - first:
+      213: 2290041379917173830
+    second: Hazards and Interactables_77
+  - first:
+      213: 7521963386215526271
+    second: Hazards and Interactables_78
+  - first:
+      213: -4858765051789351298
+    second: Hazards and Interactables_79
+  - first:
+      213: 2440878197274473764
+    second: Hazards and Interactables_81
+  - first:
+      213: 5051190115146175098
+    second: Hazards and Interactables_82
+  - first:
+      213: 2768990586608548436
+    second: Hazards and Interactables_83
+  - first:
+      213: 6545029214595577381
+    second: Hazards and Interactables_84
+  - first:
+      213: -8973945470547907010
+    second: Hazards and Interactables_70
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hazards and Interactables_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 322
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ac15da41fd6d040800000000000000
+      internalID: 4672166943343626827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 322
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430cc97f1338ac610800000000000000
+      internalID: 1642269264760848436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 322
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96f1fecc461e01e0800000000000000
+      internalID: -2229820246356527460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 322
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107560ee83a7c1050800000000000000
+      internalID: 5772623207312283393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 322
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf334cc8e1f47d50800000000000000
+      internalID: 6734273324987400143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 323
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa5764b9e7f7b990800000000000000
+      internalID: -7370149682042414425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 323
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cd79d5b984c2b10800000000000000
+      internalID: 1958019770126687374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_7
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e25f226f5f4c9c0800000000000000
+      internalID: -3907728139153494514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_8
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 321
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4975dbf2dfdb0850800000000000000
+      internalID: 6344410597342673226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 322
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e5690f0084809a0800000000000000
+      internalID: -6266679712612458888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 322
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ceef7fa859ab0a80800000000000000
+      internalID: -8499513673365066039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_11
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 319
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3575f2f483889a690800000000000000
+      internalID: -7590385921528211629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_12
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 329
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cc4944d3dab44e0800000000000000
+      internalID: -1996311531153470415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 286
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2bd83fdfb030be0800000000000000
+      internalID: -1512351864525573468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 286
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fb72f8a76278170800000000000000
+      internalID: 8180549555971407706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_15
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 286
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73134a5820f723df0800000000000000
+      internalID: -201959384469458633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 286
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44b1edd4032cc6d0800000000000000
+      internalID: -2968959550534601654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 303
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b86cb6a7f54d23f0800000000000000
+      internalID: -924005418584479562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_18
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 303
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c4f9088fc749e30800000000000000
+      internalID: 4509366533656366199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_19
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 303
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f36199f965829fe0800000000000000
+      internalID: -1183737061839903754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_20
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 302
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df11c63510c215e0800000000000000
+      internalID: -1940277292097789992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 303
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce1dd957b57d92c0800000000000000
+      internalID: -4423249828660830522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_22
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 296
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a1671d50b516ae0800000000000000
+      internalID: -1557863915546338684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_23
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 296
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53bbe636dc934b80800000000000000
+      internalID: -8411707235139603620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d34148fdc5c3730800000000000000
+      internalID: 3980158285752057107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_25
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 309
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5126dc7ca9c0542b0800000000000000
+      internalID: -5601056702648720875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_26
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 268
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93af759ea27acf460800000000000000
+      internalID: 7276874900669200953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_27
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 272
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df5168432537bc40800000000000000
+      internalID: 5527945493275041745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_28
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b511a4c2af80e51e0800000000000000
+      internalID: -2207316896787066533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_29
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 272
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19cc18ce0908dec0800000000000000
+      internalID: -3542071147835373284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_30
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 268
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6537b93c64f7b0f70800000000000000
+      internalID: 9154550609466848086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_31
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 281
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86d9da51d2d0cd60800000000000000
+      internalID: 7908552742276814477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_32
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 278
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b207763d2d42822c0800000000000000
+      internalID: -4456271343374602197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 285
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6704464d8022410800000000000000
+      internalID: 1450731738274756328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_34
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 250
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540a7d4ce39b78580800000000000000
+      internalID: -8824881265567621051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_35
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed31ccdca34b4930800000000000000
+      internalID: 4128467893132279269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_36
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 268
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb9416c9e56b53f0800000000000000
+      internalID: -911022444887368783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_37
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 260
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcafcf004b4643a00800000000000000
+      internalID: 735323363441703629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_38
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 230
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c9886ebdb7a59f0800000000000000
+      internalID: -478934225965769696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_39
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 218
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8d2e3fe1bee5560800000000000000
+      internalID: 7304534163814799612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 233
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4b286bd46fd5a00800000000000000
+      internalID: 747023926848304364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_41
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 245
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28ef7c494565cca0800000000000000
+      internalID: -5997275963283478483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_42
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7092b3e756ad7aca0800000000000000
+      internalID: -6005591448630908665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_43
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 238
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe3254dfe845f6e0800000000000000
+      internalID: -1804455880795472137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_44
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 237
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aaf6e65811e0b1a0800000000000000
+      internalID: -6795684343048635737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_45
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 240
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f982685172a61250800000000000000
+      internalID: 5915093768295582198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_46
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 237
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8f3202cefa19ac0800000000000000
+      internalID: -3850102777738692405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_47
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c57cbfeb8b492470800000000000000
+      internalID: 8370304446839420353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_48
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 196
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430101f24471f1ba0800000000000000
+      internalID: -6116144187331047372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_49
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 196
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd6d4d8cb2483580800000000000000
+      internalID: -8847248090377392700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_50
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 196
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fd9762d28890550800000000000000
+      internalID: 6127578495514697608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_51
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 196
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46091cd7c81f2f190800000000000000
+      internalID: -7930010408138469276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_52
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26e4ce329f1c5f90800000000000000
+      internalID: -6963656210842851794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_53
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 119
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7c3af207e772b60800000000000000
+      internalID: 7721279106450704291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_54
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 111
+        width: 36
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d18adaa1aed66e0800000000000000
+      internalID: -1842559272221139612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_55
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 109
+        width: 38
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f9fc5b82cc37dd0800000000000000
+      internalID: -2489421693784711412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_56
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 178
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc03d362dd9ad47c0800000000000000
+      internalID: -4085422519660760884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_57
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 155
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de0d028754a69ff0800000000000000
+      internalID: -29655651780325674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_58
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 163
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173eb539885b866b0800000000000000
+      internalID: -5302788963036306575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_59
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 171
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7109890fa709980c0800000000000000
+      internalID: -4572965088921087977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_60
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 179
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a5b7af1b32e5ce0800000000000000
+      internalID: -1414653985629185427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_61
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 89
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15f6d4b8cf11b290800000000000000
+      internalID: -7876479326406380257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_62
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 89
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73df83cfb18e943d0800000000000000
+      internalID: -3221788851513524937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_63
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 89
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dfb6c782bc79db0800000000000000
+      internalID: -4785132704311280290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_64
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 89
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e263622ae9537d550800000000000000
+      internalID: 6185471568658183726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_65
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 61
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6bd58b82ab6a840800000000000000
+      internalID: 5235076300919387829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_66
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 61
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921a364a0c255c2e0800000000000000
+      internalID: -2106186263380647639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_67
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 61
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325e932b203c8b4c0800000000000000
+      internalID: -4271449830213425885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_68
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 29
+        width: 8
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af22e40b56fb46a00800000000000000
+      internalID: 748933881520857850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_69
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 29
+        width: 7
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ca738589ddabe80800000000000000
+      internalID: -8161967728270791672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_72
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 36
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865dff01140622990800000000000000
+      internalID: -7412256204124072600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_73
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 36
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d1069d6d92adba0800000000000000
+      internalID: -6063487945554256587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_74
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 33
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdcd0c4c734fbb10800000000000000
+      internalID: 1999390960706768305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_75
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 29
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08e7b7f85b0db940800000000000000
+      internalID: 5313415612108105741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_76
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 29
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faa7952747ed9ab0800000000000000
+      internalID: -4999585718551991568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_77
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 29
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64498ea708cd7cf10800000000000000
+      internalID: 2290041379917173830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_78
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 29
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7feed0c8d1636860800000000000000
+      internalID: 7521963386215526271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_79
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 29
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e766301ade2329cb0800000000000000
+      internalID: -4858765051789351298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_81
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 29
+        width: 5
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4257a80c9cdbfd120800000000000000
+      internalID: 2440878197274473764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_82
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 29
+        width: 7
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72904ab5ae691640800000000000000
+      internalID: 5051190115146175098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_83
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 15
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45af33d844e6d6620800000000000000
+      internalID: 2768990586608548436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_84
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 15
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526f584c46d94da50800000000000000
+      internalID: 6545029214595577381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazards and Interactables_70
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 29
+        width: 7
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e244af324267380800000000000000
+      internalID: -8973945470547907010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
