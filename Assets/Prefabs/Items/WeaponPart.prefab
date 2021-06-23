@@ -52,7 +52,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.9375, y: 1}
+    oldSize: {x: 0.875, y: 0.9375}
     newSize: {x: 1.25, y: 1.3125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -141,7 +141,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 9
-  m_Sprite: {fileID: -1392189699596056505, guid: 4a12505f2b61da14e9217a85d559a019, type: 3}
+  m_Sprite: {fileID: 864046363699425504, guid: 55e06e43dc7e7b24c87a9299f2f27304, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -170,12 +170,13 @@ MonoBehaviour:
   lifeEnergy: 0
   weaponEnergy: 0
   bonusPoints: 0
-  itemClip: {fileID: 0}
+  itemClip: {fileID: 8300000, guid: 63f664a0ede1285408911ef012d50976, type: 3}
   racBonusBallBlue: {fileID: 0}
   racBonusBallGray: {fileID: 0}
   racBonusBallGreen: {fileID: 0}
   racBonusBallOrange: {fileID: 0}
   racBonusBallRed: {fileID: 0}
+  racBonusBallBlack: {fileID: 0}
   bonusBallColor: 1
   racWeaponPartBlue: {fileID: 22100000, guid: 612dc1a1a17cc34489898bd140ccad25, type: 2}
   racWeaponPartOrange: {fileID: 22100000, guid: 4e8b2caae1576674b9a0ca331ba2409b, type: 2}

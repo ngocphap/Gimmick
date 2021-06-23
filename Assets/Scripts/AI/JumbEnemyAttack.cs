@@ -44,7 +44,12 @@ public class JumbEnemyAttack : MonoBehaviour
         checkingWall = Physics2D.OverlapCircle(wallCheckPoint.position, circleRadius, groundLayer);
         isGrounded = Physics2D.OverlapBox(groundCheck.position, boxSize, 0, groundLayer);
         canSeePlayer = Physics2D.OverlapBox(transform.position, lineOfSite, 0, playerLayer);
-        Petrolling();
+
+        if(!canSeePlayer && isGrounded)
+        {
+            Petrolling();
+        }
+        
         //FlipTowardsPlayer();
     }
     void Petrolling()

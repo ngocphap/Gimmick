@@ -48,7 +48,8 @@ public class ItemScript : MonoBehaviour
     [SerializeField] RuntimeAnimatorController racBonusBallGreen;
     [SerializeField] RuntimeAnimatorController racBonusBallOrange;
     [SerializeField] RuntimeAnimatorController racBonusBallRed;
-    public enum BonusBallColors { Random, Blue, Gray, Green, Orange, Red };
+    [SerializeField] RuntimeAnimatorController racBonusBallBlack;
+    public enum BonusBallColors { Random, Blue, Gray, Green, Orange, Red ,Black};
     [SerializeField] BonusBallColors bonusBallColor = BonusBallColors.Blue;
 
     [Header("Weapon Part Settings")]
@@ -74,10 +75,9 @@ public class ItemScript : MonoBehaviour
         Animate(animate);
 
         // if there is a delay set then apply it
-        if (destroyDelay > 0)
-        {
+        
             SetDestroyDelay(destroyDelay);
-        }
+       
 
         // set bonus ball color
         if (itemType == ItemTypes.BonusBall)
@@ -108,7 +108,12 @@ public class ItemScript : MonoBehaviour
 
     public void SetDestroyDelay(float delay)
     {
-        Destroy(gameObject, delay);
+        destroyDelay = delay;
+        if(delay >0)
+        {
+            Destroy(gameObject, delay);
+        }
+        
     }
 
     public void SetBonusBallColor(BonusBallColors color)

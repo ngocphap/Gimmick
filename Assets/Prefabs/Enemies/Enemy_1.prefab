@@ -174,7 +174,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 67822521099348581}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -270,6 +270,13 @@ MonoBehaviour:
   bulletShootPos: {fileID: 0}
   bulletPrefab: {fileID: 0}
   explodeEffectPrefab: {fileID: 4874854373271059766, guid: f0de575e7e59f334c96558a178c20da2, type: 3}
+  explodeEffectDestroyDelay: 2
+  TakeDamageEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  DefeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &67822521099348589
 MonoBehaviour:
   m_ObjectHideFlags: 0

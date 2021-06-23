@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     // Singleton instance
     public static GameManager Instance = null;
 
+    // flag to trigger the next scene
+    bool startNextScene;
+
     AssetPalette assetPalette;
     int enemyPrefabCount;
 
@@ -33,6 +36,9 @@ public class GameManager : MonoBehaviour
 
     public float gameRestartDelay = 5f;
     public float gamePlayerReadyDelay = 3f;
+
+    public enum GameStates { TitleScreen,IntroScene, MainScene,Scene1_2 };
+    public GameStates gameState = GameStates.TitleScreen;
 
     public struct WorldViewCoordinates
     {
@@ -62,6 +68,47 @@ public class GameManager : MonoBehaviour
 
         // Set GameManager to DontDestroyOnLoad so that it won't be destroyed when reloading our scene
         DontDestroyOnLoad(gameObject);
+
+        // set the asset palette up only one time
+        if (assetPalette == null)
+        {
+            assetPalette = GetComponent<AssetPalette>();
+            enemyPrefabCount = Enum.GetNames(typeof(AssetPalette.EnemyList)).Length;
+        }
+    }
+
+    // called first
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    // called when the game is terminated
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    // called second
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // init functions for each scene / game state
+        switch (gameState)
+        {
+           
+            case GameStates.TitleScreen:
+                StartTitleScreen();
+                break;
+            case GameStates.IntroScene:
+                StartIntroScene();
+                break;
+            case GameStates.MainScene:
+                StartMainScene();
+                break;
+            case GameStates.Scene1_2:
+                StartScene1_2Scene();
+                break;
+        }
     }
 
     // called third
@@ -71,6 +118,170 @@ public class GameManager : MonoBehaviour
 
     // Update is called once per frame
     private void Update()
+    {
+        // game loop functions for each scene / game state
+        switch (gameState)
+        {
+            
+            case GameStates.TitleScreen:
+                TitleScreenLoop();
+                break;
+            case GameStates.IntroScene:
+                IntroSceneLoop();
+                break;
+            case GameStates.MainScene:
+                MainSceneLoop();
+                break;
+            case GameStates.Scene1_2:
+                Sceen1_2SceneLoop();
+                break;
+        }
+    }
+
+    public void StartNextScene()
+    {
+        // flag to trigger starting the next scene
+        // scenes call this function to tell the GameManager they're done
+        startNextScene = true;
+    }
+
+    private void StartTitleScreen()
+    {
+        // add any init code here for title screen
+    }
+
+    private void TitleScreenLoop()
+    {
+        // scene change triggered by StartNextScene()
+        if (startNextScene)
+        {
+            // can do other things here before loading the next scene
+            startNextScene = false;
+            gameState = GameStates.IntroScene;
+            SceneManager.LoadScene("Intro Scene");
+        }
+    }
+    private void StartIntroScene()
+    {
+        // add any init code here for Intro screen
+    }
+
+    private void IntroSceneLoop()
+    {
+        // scene change triggered by StartNextScene()
+        if (startNextScene)
+        {
+            // can do other things here before loading the next scene
+            startNextScene = false;
+            gameState = GameStates.MainScene;
+            SceneManager.LoadScene("Main Scene");
+        }
+    }
+    private void StartScene1_2Scene()
+    {
+        isGameOver = false;
+        playerReady = true;
+        initReadyScreen = true;
+        firstMessage = true;
+        gamePlayerReadyTime = gamePlayerReadyDelay;
+        // get tmp text objects for score and screen message
+        playerScoreText = GameObject.Find("PlayerScore").GetComponent<TextMeshProUGUI>();
+        screenMessageText = GameObject.Find("ScreenMessage").GetComponent<TextMeshProUGUI>();
+        // set up the scene music - 3/4 volume, loop, and play
+        SoundManager.Instance.MusicSource.clip = GameObject.Find("Scene 1_2").GetComponent<MainScene>().musicClip;
+        SoundManager.Instance.MusicSource.volume = 0.75f;
+        SoundManager.Instance.MusicSource.loop = true;
+        SoundManager.Instance.MusicSource.Play();
+    }
+    private void Sceen1_2SceneLoop()
+    {
+        // player ready screen - wait the delay time and show READY on screen
+        if (playerReady)
+        {
+            // initialize objects and set READY text
+            if (initReadyScreen)
+            {
+                FreezePlayer(true);
+                FreezeEnemies(true);
+                screenMessageText.alignment = TextAlignmentOptions.Center;
+                screenMessageText.alignment = TextAlignmentOptions.Top;
+                screenMessageText.fontStyle = FontStyles.UpperCase;
+                screenMessageText.fontSize = 24;
+                //screenMessageText.text = "\n\n\n\nREADY";
+                initReadyScreen = false;
+            }
+            // countdown READY screen pause
+            gamePlayerReadyTime -= Time.deltaTime;
+            if (gamePlayerReadyTime < 0)
+            {
+                FreezePlayer(false);
+                FreezeEnemies(false);
+             //   TeleportPlayer(true);
+                screenMessageText.text = "";
+                playerReady = false;
+            }
+            return;
+        }
+
+        // show player score
+        if (playerScoreText != null)
+        {
+            playerScoreText.text = String.Format("<mspace=\"{0}\">{1:0000000}</mspace>", playerScoreText.fontSize, playerScore);
+        }
+
+        // if the game isn't over then spawn enemies
+        if (!isGameOver)
+        {
+            // here is where we can do things while the game is running
+            GetWorldViewCoordinates();
+            //ShowMessage();
+            UpdateScore();
+            //SpawnEnemies();
+            RepositionEnemies();
+            DestroyStrayBullets();
+        }
+        else
+        {
+            // game over, wait delay then reload scene
+            gameRestartTime -= Time.deltaTime;
+            if (gameRestartTime < 0)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+        }
+
+        // scene change triggered by StartNextScene()
+        if (startNextScene)
+        {
+            // can do other things here before loading the next scene
+            startNextScene = false;
+            gameState = GameStates.Scene1_2;
+            SceneManager.LoadScene("Scene 1_2");
+        }
+    }
+
+
+
+
+    private void StartMainScene()
+    {
+        // game loop vars
+        isGameOver = false;
+        playerReady = true;
+        initReadyScreen = true;
+        firstMessage = true;
+        gamePlayerReadyTime = gamePlayerReadyDelay;
+        // get tmp text objects for score and screen message
+        playerScoreText = GameObject.Find("PlayerScore").GetComponent<TextMeshProUGUI>();
+        screenMessageText = GameObject.Find("ScreenMessage").GetComponent<TextMeshProUGUI>();
+        // set up the scene music - 3/4 volume, loop, and play
+        SoundManager.Instance.MusicSource.clip = GameObject.Find("Main Scene").GetComponent<MainScene>().musicClip;
+        SoundManager.Instance.MusicSource.volume = 0.75f;
+        SoundManager.Instance.MusicSource.loop = true;
+        SoundManager.Instance.MusicSource.Play();
+    }
+
+    private void MainSceneLoop()
     {
         // player ready screen - wait the delay time and show READY on screen
         if (playerReady)
@@ -93,7 +304,7 @@ public class GameManager : MonoBehaviour
             {
                 FreezePlayer(false);
                 FreezeEnemies(false);
-                //TeleportPlayer(true);
+             //   TeleportPlayer(true);
                 screenMessageText.text = "";
                 playerReady = false;
             }
@@ -113,7 +324,7 @@ public class GameManager : MonoBehaviour
             GetWorldViewCoordinates();
             //ShowMessage();
             UpdateScore();
-            SpawnEnemies();
+            //SpawnEnemies();
             RepositionEnemies();
             DestroyStrayBullets();
         }
@@ -126,39 +337,14 @@ public class GameManager : MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
-    }
 
-    // called first
-    private void OnEnable()
-    {
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    // called when the game is terminated
-    private void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    // called second
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        // Do Startup Functions - Scene has to be fully loaded
-        // otherwise we can't get a handle on the player score text object
-        StartGame();
-    }
-
-    // initializes and starts the game
-    private void StartGame()
-    {
-        isGameOver = false;
-        playerReady = true;
-        initReadyScreen = true;
-        firstMessage = true;
-        gamePlayerReadyTime = gamePlayerReadyDelay;
-        playerScoreText = GameObject.Find("PlayerScore").GetComponent<TextMeshProUGUI>();
-        screenMessageText = GameObject.Find("ScreenMessage").GetComponent<TextMeshProUGUI>();
-        SoundManager.Instance.MusicSource.Play();
+        if (startNextScene)
+        {
+            // can do other things here before loading the next scene
+            startNextScene = false;
+            gameState = GameStates.Scene1_2;
+            SceneManager.LoadScene("Scene 1_2");
+        }
     }
 
     // objects that offer score points should call this method upon their defeat to add to the player's score
@@ -181,7 +367,7 @@ public class GameManager : MonoBehaviour
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
-          //  player.GetComponent<PlayerController>().FreezeInput(freeze);
+            player.GetComponent<PlayerController>().FreezeInput(freeze);
             player.GetComponent<PlayerController>().FreezePlayer(freeze);
         }
     }
@@ -206,15 +392,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    /*private void TeleportPlayer(bool teleport)
-    {
-        // teleport player - happens after READY screen
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if (player != null)
-        {
-            player.GetComponent<PlayerController>().Teleport(teleport);
-        }
-    }*/
+   
 
     public void PlayerDefeated()
     {
@@ -309,12 +487,6 @@ public class GameManager : MonoBehaviour
     {
         if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
         {
-            // set the asset palette up only one time
-            if (assetPalette == null)
-            {
-                assetPalette = GetComponent<AssetPalette>();
-                enemyPrefabCount = Enum.GetNames(typeof(AssetPalette.EnemyList)).Length;
-            }
             // 5 enemies at most on screen at one time
             int randomEnemyCount = UnityEngine.Random.Range(1, 6);
             GameObject[] randomEnemies = new GameObject[randomEnemyCount];
@@ -398,26 +570,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // display a message that a checkpoint has been reached
-    // trigger this through a camera transition post delay event
-    public void CheckpointReached()
-    {
-        StartCoroutine(CoCheckpointReached());
-    }
-
-    private IEnumerator CoCheckpointReached()
-    {
-        // show checkpoint message on screen
-        screenMessageText.alignment = TextAlignmentOptions.Center;
-        screenMessageText.alignment = TextAlignmentOptions.Top;
-        screenMessageText.fontStyle = FontStyles.UpperCase;
-        screenMessageText.fontSize = 24;
-        screenMessageText.text = "CHECKPOINT REACHED";
-        // remove message after 5 seconds
-        yield return new WaitForSeconds(5f);
-        screenMessageText.text = "";
-    }
-
     // internal to the game manager to pick a random bonus item
     // use the function below GetBonusItem in enemies and objects
     // that need to generate a bonus item drop upon their explosion
@@ -469,7 +621,7 @@ public class GameManager : MonoBehaviour
             ItemScript.ItemTypes.LifeEnergySmall,
             ItemScript.ItemTypes.WeaponEnergyBig,
             ItemScript.ItemTypes.LifeEnergyBig,
-          //  ItemScript.ItemTypes.ExtraLife,
+           // ItemScript.ItemTypes.ExtraLife,
             ItemScript.ItemTypes.Nothing,
             ItemScript.ItemTypes.BonusBall
         };
@@ -520,30 +672,30 @@ public class GameManager : MonoBehaviour
             case ItemScript.ItemTypes.BonusBall:
                 bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.BonusBall];
                 break;
-            //case ItemScript.ItemTypes.ExtraLife:
-              //  bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.ExtraLife];
-              //  break;
+           // case ItemScript.ItemTypes.ExtraLife:
+             //   bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.ExtraLife];
+                break;
             case ItemScript.ItemTypes.LifeEnergyBig:
                 bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.LifeEnergyBig];
                 break;
-          //  case ItemScript.ItemTypes.LifeEnergySmall:
-           //     bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.LifeEnergySmall];
-             //   break;
+            case ItemScript.ItemTypes.LifeEnergySmall:
+                bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.LifeEnergySmall];
+                break;
             case ItemScript.ItemTypes.WeaponEnergyBig:
                 bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.WeaponEnergyBig];
                 break;
             case ItemScript.ItemTypes.WeaponEnergySmall:
                 bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.WeaponEnergySmall];
                 break;
-          //  case ItemScript.ItemTypes.MagnetBeam:
-              //  bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.MagnetBeam];
-             //   break;
-            //case ItemScript.ItemTypes.WeaponPart:
-             //   bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.WeaponPart];
-             //   break;
+           // case ItemScript.ItemTypes.MagnetBeam:
+            //    bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.MagnetBeam];
+            //    break;
+           // case ItemScript.ItemTypes.WeaponPart:
+           //     bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.WeaponPart];
+            //    break;
            // case ItemScript.ItemTypes.Yashichi:
-             //   bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.Yashichi];
-             //   break;
+           //     bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.Yashichi];
+           //     break;
         }
 
         // return bonus item prefab

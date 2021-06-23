@@ -24,4 +24,63 @@ public class UtilityFunctions : MonoBehaviour
         p += tt * p2;
         return p;
     }
+
+    public static Vector2 RotateByAngle(Vector2 vector, float angle)
+    {
+        Vector2 nv;
+        float theta = angle * Mathf.Deg2Rad;
+        float cs = Mathf.Cos(theta);
+        float sn = Mathf.Sin(theta);
+        nv.x = vector.x * cs - vector.y * sn;
+        nv.y = vector.x * sn + vector.y * cs;
+        return nv;
+    }
+
+    // Time functions for animated storytelling
+    public static bool InTime(float runTime, float xTime)
+    {
+        return (runTime >= xTime && runTime < (xTime + Time.deltaTime));
+    }
+
+    public static bool InTime(float runTime, float startTime, float endTime)
+    {
+        return (runTime >= startTime && runTime < endTime);
+    }
+
+    public static bool UntilTime(float runTime, float startTime)
+    {
+        return (runTime < startTime);
+    }
+
+    public static bool OverTime(float runTime, float endTime)
+    {
+        return (runTime >= endTime);
+    }
+
+    // Source: YouTube video by Sebastian Lague
+    // Kinematic Equations (E03: ball problem)
+    // https://www.youtube.com/watch?v=IvT8hjy6q4o
+    public static LaunchData CalculateLaunchData(Vector3 source, Vector3 target, float height, float gravity)
+    {
+        float displacementY = target.y - source.y;
+        Vector3 displacementXZ = new Vector3(target.x - source.x, 0, target.z - source.z);
+        float time = Mathf.Sqrt(-2 * height / gravity) + Mathf.Sqrt(2 * (displacementY - height) / gravity);
+        Vector3 velocityY = Vector3.up * Mathf.Sqrt(-2 * gravity * height);
+        Vector3 velocityXZ = displacementXZ / time;
+
+        return new LaunchData(velocityXZ + velocityY * -Mathf.Sign(gravity), time);
+    }
+
+    public struct LaunchData
+    {
+        public readonly Vector3 initialVelocity;
+        public readonly float timeToTarget;
+
+        public LaunchData(Vector3 initialVelocity, float timeToTarget)
+        {
+            this.initialVelocity = initialVelocity;
+            this.timeToTarget = timeToTarget;
+        }
+    }
+
 }

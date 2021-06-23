@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -6248741079362886434
-    second: Boss_0
+    second: Boss_Idle
   - first:
       213: 2287940250583960180
-    second: Boss_1
+    second: Boss_Atack1
   - first:
       213: 4935984790844978548
-    second: Boss_2
+    second: Boss_Atack2
   - first:
       213: -1341004319433955295
-    second: Boss_3
+    second: Boss_Atack3
   - first:
       213: -5999534734459318484
-    second: Boss_4
+    second: Boss_Run1
   - first:
       213: -7156185490814696510
-    second: Boss_5
+    second: Boss_Run2
   - first:
       213: 1243870551893655439
-    second: Boss_6
+    second: Boss_Run3
   - first:
       213: -77334111701985629
-    second: Boss_7
+    second: Boss_Die
   - first:
       213: -2075714688798011193
     second: Boss_8
@@ -391,7 +391,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boss_0
+      name: Boss_Idle
       rect:
         serializedVersion: 2
         x: 2
@@ -412,7 +412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_1
+      name: Boss_Atack1
       rect:
         serializedVersion: 2
         x: 36
@@ -433,7 +433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_2
+      name: Boss_Atack2
       rect:
         serializedVersion: 2
         x: 70
@@ -454,7 +454,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_3
+      name: Boss_Atack3
       rect:
         serializedVersion: 2
         x: 104
@@ -475,7 +475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_4
+      name: Boss_Run1
       rect:
         serializedVersion: 2
         x: 166
@@ -496,7 +496,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_5
+      name: Boss_Run2
       rect:
         serializedVersion: 2
         x: 200
@@ -517,7 +517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_6
+      name: Boss_Run3
       rect:
         serializedVersion: 2
         x: 234
@@ -538,7 +538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_7
+      name: Boss_Die
       rect:
         serializedVersion: 2
         x: 291

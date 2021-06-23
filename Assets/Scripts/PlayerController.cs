@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -32,8 +33,26 @@ public class PlayerController : MonoBehaviour
 
     RigidbodyConstraints2D rb2dConstraints;
 
+    //
+    public enum PlayerWeapons { Default, BombMan ,FireMan};
+    public PlayerWeapons playerWeapon = PlayerWeapons.Default;
+
+    [System.Serializable]
+    public struct PlayerWeaponsStruct
+    {
+        public PlayerWeapons weapon;
+        public int currentEnergy;
+        public int maxEnergy;
+
+        public int energyCost;
+        public int weaponDamage;
+        public GameObject weaponPrefab;
+    }
+    public PlayerWeaponsStruct[] playerWeaponStructs;
+    //
+
     public int currentHealth;
-    public int maxHealth = 28;
+    public int maxHealth = 4;
 
     [SerializeField] float moveSpeed = 1.5f;
     [SerializeField] float jumpSpeed = 3.7f;
@@ -71,6 +90,13 @@ public class PlayerController : MonoBehaviour
 
         // start at full health
         currentHealth = maxHealth;
+
+        for(int i=0;i<playerWeaponStructs.Length;i++)
+        {
+            playerWeaponStructs[i].currentEnergy = playerWeaponStructs[i].maxEnergy;
+        }
+        //
+        SetWeapon(playerWeapon);
     }
 
     private void FixedUpdate()
@@ -170,6 +196,38 @@ public class PlayerController : MonoBehaviour
         {
             FreezePlayer(!freezePlayer);
             Debug.Log("Freeze Player: " + freezePlayer);
+        }
+        // T 
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            SetWeapon((PlayerWeapons)UnityEngine.Random.Range(0,
+                Enum.GetValues(typeof(PlayerWeapons)).Length));
+            //Teleport(true);
+            //Debug.Log("Teleport(true)");
+        }
+        // #1 for random Enemy Health energy bar color
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            UIEnergyBars.Instance.SetImage(
+                UIEnergyBars.EnergyBars.PlayerWeapon1,
+                (UIEnergyBars.EnergyBarTypes)UnityEngine.Random.Range(0,
+                    Enum.GetValues(typeof(UIEnergyBars.EnergyBarTypes)).Length));
+        }
+        // #2 for random Enemy Health energy bar color
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            UIEnergyBars.Instance.SetImage(
+                UIEnergyBars.EnergyBars.PlayerWeapon2,
+                (UIEnergyBars.EnergyBarTypes)UnityEngine.Random.Range(0,
+                    Enum.GetValues(typeof(UIEnergyBars.EnergyBarTypes)).Length));
+        }
+        // #3 for random Enemy Health energy bar color
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            UIEnergyBars.Instance.SetImage(
+                UIEnergyBars.EnergyBars.PlayerWeapon3,
+                (UIEnergyBars.EnergyBarTypes)UnityEngine.Random.Range(0,
+                    Enum.GetValues(typeof(UIEnergyBars.EnergyBarTypes)).Length));
         }
     }
 
@@ -334,6 +392,55 @@ public class PlayerController : MonoBehaviour
         isFacingRight = !isFacingRight;
         transform.Rotate(0f, 180f, 0f);
     }
+
+    public void SetWeapon(PlayerWeapons weapon)
+    {
+        
+
+        // set new selected weapon (determines color scheme)
+        playerWeapon = weapon;
+
+        // calculate weapon energy value to adjust the bars
+        int currentEnergy = playerWeaponStructs[(int)playerWeapon].currentEnergy;
+        int maxEnergy = playerWeaponStructs[(int)playerWeapon].maxEnergy;
+        float weaponEnergyValue = (float)currentEnergy / (float)maxEnergy;
+
+        // apply new selected color scheme with ColorSwap and set weapon energy bar
+        switch (playerWeapon)
+        {
+            case PlayerWeapons.Default:
+                // dark blue, light blue
+              //  colorSwap.SwapColor((int)SwapIndex.Primary, ColorSwap.ColorFromInt(0x0073F7));
+             //   colorSwap.SwapColor((int)SwapIndex.Secondary, ColorSwap.ColorFromInt(0x00FFFF));
+                // the player weapon energy doesn't apply but we'll just set the default and hide it
+                UIEnergyBars.Instance.SetImage(UIEnergyBars.EnergyBars.PlayerWeapon1, UIEnergyBars.EnergyBarTypes.BigLifeHealth);
+                UIEnergyBars.Instance.SetVisibility(UIEnergyBars.EnergyBars.PlayerWeapon1, false);
+                break;
+            case PlayerWeapons.BombMan:
+                // dark blue, light blue
+              //  colorSwap.SwapColor((int)SwapIndex.Primary, ColorSwap.ColorFromInt(0x0073F7));
+               // colorSwap.SwapColor((int)SwapIndex.Secondary, ColorSwap.ColorFromInt(0x00FFFF));
+                // magnet beam energy and set visible
+                UIEnergyBars.Instance.SetImage(UIEnergyBars.EnergyBars.PlayerWeapon1, UIEnergyBars.EnergyBarTypes.BomBullt);
+                UIEnergyBars.Instance.SetValue(UIEnergyBars.EnergyBars.PlayerWeapon1, weaponEnergyValue);
+                UIEnergyBars.Instance.SetVisibility(UIEnergyBars.EnergyBars.PlayerWeapon1, true);
+                break;
+            case PlayerWeapons.FireMan:
+                // green, light gray
+               // colorSwap.SwapColor((int)SwapIndex.Primary, ColorSwap.ColorFromInt(0x009400));
+               // colorSwap.SwapColor((int)SwapIndex.Secondary, ColorSwap.ColorFromInt(0xFCFCFC));
+                // bombman's hyper bomb weapon energy and set visible
+                UIEnergyBars.Instance.SetImage(UIEnergyBars.EnergyBars.PlayerWeapon1, UIEnergyBars.EnergyBarTypes.FireRed);
+                UIEnergyBars.Instance.SetValue(UIEnergyBars.EnergyBars.PlayerWeapon1, weaponEnergyValue);
+                UIEnergyBars.Instance.SetVisibility(UIEnergyBars.EnergyBars.PlayerWeapon1, true);
+                break;
+            
+           
+        }
+
+        // apply the color changes
+        //colorSwap.ApplyColor();
+    }
     public void ApplyLifeEnergy(int amount)
     {
         // only apply health if we need it
@@ -354,7 +461,7 @@ public class PlayerController : MonoBehaviour
         {
             currentHealth++;
             currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-            UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
+            UIEnergyBars.Instance.SetValue(UIEnergyBars.EnergyBars.PlayerHealth,currentHealth / (float)maxHealth);
             yield return new WaitForSeconds(0.05f);
         }
         // done playing energy fill clip
@@ -398,7 +505,7 @@ public class PlayerController : MonoBehaviour
             // take damage amount from health and update the health bar
             currentHealth -= damage;
             currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-            UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
+            UIEnergyBars.Instance.SetValue(UIEnergyBars.EnergyBars.PlayerHealth, currentHealth / (float)maxHealth);
             // no more health means defeat, otherwise take damage
             if (currentHealth <= 0)
             {
@@ -490,6 +597,13 @@ public class PlayerController : MonoBehaviour
     {
         // freeze/unfreeze user input
         freezeInput = freeze;
+        if(freeze)
+        {
+            keyHorizontal = 0;
+            keyVertical = 0;
+            keyJump = false;
+            keyShoot = false;
+        }
     }
 
     public void FreezePlayer(bool freeze)
@@ -509,5 +623,24 @@ public class PlayerController : MonoBehaviour
             animator.speed = 1;
             rb2d.constraints = rb2dConstraints;
         }
+    }
+
+    public void SimulateMoveStop()
+    {
+        keyHorizontal = 0f;
+    }
+
+    public void SimulateMoveLeft()
+    {
+        keyHorizontal = -1.0f;
+    }
+    public void SimulateMoveRight()
+    {
+        keyHorizontal = 1.0f;
+    }
+
+    public void SimulateJump()
+    {
+        keyJump = true;
     }
 }
