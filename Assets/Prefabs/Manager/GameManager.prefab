@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7483366095794258762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7483366095794258741}
+  - component: {fileID: 7483366095794258740}
+  - component: {fileID: 7483366095794258743}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7483366095794258741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7483366095794258762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7483366095794258740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7483366095794258762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 510885dda5ff6c142954418888a1bae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameRestartDelay: 5
+  gamePlayerReadyDelay: 3
+--- !u!114 &7483366095794258743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7483366095794258762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7b36ce9ca49b4649b57edcdf8eee9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 3410354750548855907, guid: f381afafdbb80a642b4da72443e1dc00, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemyList: 3
+  itemPrefabs:
+  - {fileID: 6918673289323258214, guid: f518fc9b54ea83c48a4ee1ad2bae5de5, type: 3}
+  - {fileID: 4913828686150053807, guid: 6e5eb3738f812224a954cd513e062109, type: 3}
+  - {fileID: 1068050086871416314, guid: f4b149cc1e9ccf641ad7492ffd5007fc, type: 3}
+  - {fileID: 7551754904436605874, guid: 80a7b7c5b4f8e9a4ab066443d2e699ba, type: 3}
+  - {fileID: 6198428438647697491, guid: 15631ab4517bc1a438310a0a006393bf, type: 3}
+  itemList: 1
