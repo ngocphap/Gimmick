@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     SpriteRenderer sprite;
 
     float keyHorizontal;
-    float keyVertical;
+   // float keyVertical;
     bool keyJump;
     bool keyShoot;
 
@@ -104,14 +104,17 @@ public class PlayerController : MonoBehaviour
         isGrounded = false;
         Color raycastColor;
         RaycastHit2D raycastHit;
+        //RaycastHit2D raycastHitMovingPlatfrom;//
         float raycastDistance = 0.05f;
         int layerMask = 1 << LayerMask.NameToLayer("Ground");
+       // int tranfromMovingplatform = 1 << LayerMask.NameToLayer("MovingPlatfrom");//
         // ground check
         Vector3 box_origin = box2d.bounds.center;
         box_origin.y = box2d.bounds.min.y + (box2d.bounds.extents.y / 4f);
         Vector3 box_size = box2d.bounds.size;
         box_size.y = box2d.bounds.size.y / 4f;
         raycastHit = Physics2D.BoxCast(box_origin, box_size, 0f, Vector2.down, raycastDistance, layerMask);
+       // raycastHitMovingPlatfrom = Physics2D.BoxCast(box_origin, box_size, 0f, Vector2.down, raycastDistance, tranfromMovingplatform);
         // player box colliding with ground layer
         if (raycastHit.collider != null)
         {
@@ -122,6 +125,10 @@ public class PlayerController : MonoBehaviour
                 isJumping = false;
                 SoundManager.Instance.Play(jumpLandedClip);
             }
+            
+            // kiem tra nếu có va cham với movingplatform ,player không di chuyen
+            //foreach(var c in tranfromMovingplatform)
+            
         }
         // draw debug lines
         raycastColor = (isGrounded) ? Color.green : Color.red;
@@ -274,6 +281,7 @@ public class PlayerController : MonoBehaviour
         {
             keyShootReleaseTimeLength = Time.time - shootTime;
             keyShootRelease = true;
+           // Invoke("ShootBullet", 0.1f);
         }
         // while shooting limit its duration
         if (isShooting)
@@ -600,7 +608,7 @@ public class PlayerController : MonoBehaviour
         if(freeze)
         {
             keyHorizontal = 0;
-            keyVertical = 0;
+          //  keyVertical = 0;
             keyJump = false;
             keyShoot = false;
         }
@@ -642,5 +650,21 @@ public class PlayerController : MonoBehaviour
     public void SimulateJump()
     {
         keyJump = true;
+    }
+
+    private void OnTriggerEnter2D(Collider2D coll)
+    {
+        
+        if (coll.gameObject.tag == "MovingPlatfrom" )
+        {
+            isGrounded = true;
+            transform.parent = coll.gameObject.transform;
+        }
+        else
+        {
+            transform.parent = null;
+        }
+            
+        
     }
 }

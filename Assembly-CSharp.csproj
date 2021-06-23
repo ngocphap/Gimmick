@@ -64,7 +64,6 @@
     <Compile Include="Assets\Scripts\Ememies\BigEyeController.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\AI\Patrol.cs" />
-    <Compile Include="Assets\Scripts\Bullet\BounceTowardPlay.cs" />
     <Compile Include="Assets\Scripts\Ememies\KillerBombController.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Ememies\MambuController.cs" />
@@ -82,8 +81,9 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Scenes\IntroScene.cs" />
     <Compile Include="Assets\Scripts\Weapons\BombScript.cs" />
-    <Compile Include="Assets\Scripts\UtilityFunctions.cs" />
     <Compile Include="Assets\Scripts\MapLever.cs" />
+    <Compile Include="Assets\Scripts\UtilityFunctions.cs" />
+    <Compile Include="Assets\Scripts\Platform\MovingPlatform.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

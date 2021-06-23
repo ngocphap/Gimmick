@@ -1,0 +1,840 @@
+fileFormatVersion: 2
+guid: 1d3e3ce2d7aa6544bb00a74d03d7879a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 827719533726383788
+    second: Fish_1
+  - first:
+      213: 4035215236461681600
+    second: Fish_1_1
+  - first:
+      213: -5569637916256905008
+    second: Fish_1_2
+  - first:
+      213: 6783558179110874381
+    second: Fish_1_3
+  - first:
+      213: 603257430653462997
+    second: Fish_1_4
+  - first:
+      213: 1907649761371642336
+    second: Fish_1_5
+  - first:
+      213: 7935230924629804103
+    second: Fish_2
+  - first:
+      213: 4022228280673019897
+    second: Fish_2_1
+  - first:
+      213: -196455350397978067
+    second: Fish_2_3
+  - first:
+      213: 7052493442460193518
+    second: Fish_2_4
+  - first:
+      213: -5880158931122109506
+    second: Fish_2_5
+  - first:
+      213: -4001427129773632043
+    second: Fish_2_6
+  - first:
+      213: -3386832135684597819
+    second: Fish_3
+  - first:
+      213: -8601406321397666400
+    second: Fish_3_1
+  - first:
+      213: 7833595755300048962
+    second: Fish_3_2
+  - first:
+      213: 6325396656593844491
+    second: Fish_3_4
+  - first:
+      213: -5738829060766982349
+    second: Fish_3_5
+  - first:
+      213: 8572794233488530885
+    second: Fish_3_6
+  - first:
+      213: -6066111002704802006
+    second: Passive Creatures_18
+  - first:
+      213: 3127453788391223708
+    second: Passive Creatures_19
+  - first:
+      213: 420835361530663758
+    second: Passive Creatures_20
+  - first:
+      213: 6477602695474681959
+    second: Passive Creatures_21
+  - first:
+      213: 427909905447187227
+    second: Passive Creatures_22
+  - first:
+      213: 4502105535028648399
+    second: Passive Creatures_23
+  - first:
+      213: 8587595036850663981
+    second: Passive Creatures_24
+  - first:
+      213: 9018965076319893406
+    second: Passive Creatures_25
+  - first:
+      213: 1255965756206963030
+    second: Passive Creatures_26
+  - first:
+      213: -7413221441888163256
+    second: Passive Creatures_27
+  - first:
+      213: -4103860703959683956
+    second: Passive Creatures_28
+  - first:
+      213: 1116192691804020974
+    second: Passive Creatures_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fish_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 49
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caeb96dc786ac7b00800000000000000
+      internalID: 827719533726383788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_1_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 49
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbda89c0e6fff730800000000000000
+      internalID: 4035215236461681600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_1_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 49
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8d5f903dba4b2b0800000000000000
+      internalID: -5569637916256905008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_1_3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 49
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d691b193a042e50800000000000000
+      internalID: 6783558179110874381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_1_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 49
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9e63edf633f5800800000000000000
+      internalID: 603257430653462997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_1_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 49
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e95a6ec955597a10800000000000000
+      internalID: 1907649761371642336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 27
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7440149bb7a9f1e60800000000000000
+      internalID: 7935230924629804103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_2_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 27
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7ab038f43d1d730800000000000000
+      internalID: 4022228280673019897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_2_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 27
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2abd4156ec064df0800000000000000
+      internalID: -196455350397978067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_2_4
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 27
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee29c929b6d7fd160800000000000000
+      internalID: 7052493442460193518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_2_5
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 27
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb340a74b9a756ea0800000000000000
+      internalID: -5880158931122109506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_2_6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 27
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d55b37d9331878c0800000000000000
+      internalID: -4001427129773632043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 5
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c754a6ed1e8ff0d0800000000000000
+      internalID: -3386832135684597819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_3_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 5
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adea4cd58aa1a880800000000000000
+      internalID: -8601406321397666400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_3_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 5
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240daa4d5d586bc60800000000000000
+      internalID: 7833595755300048962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_3_4
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 5
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0938bbeeb258c750800000000000000
+      internalID: 6325396656593844491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_3_5
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 5
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f9b46ff559b50b0800000000000000
+      internalID: -5738829060766982349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_3_6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 5
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdd99b4feea8f670800000000000000
+      internalID: 8572794233488530885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passive Creatures_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 48
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f01b3ce28d0dba0800000000000000
+      internalID: -6066111002704802006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passive Creatures_19
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 49
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91328c86a2f66b20800000000000000
+      internalID: 3127453788391223708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passive Creatures_20
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 32
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4355f8188b17d500800000000000000
+      internalID: 420835361530663758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passive Creatures_21
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 32
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76891ebe45115e950800000000000000
+      internalID: 6477602695474681959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passive Creatures_22
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 23
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13fc06bacd30f500800000000000000
+      internalID: 427909905447187227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passive Creatures_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 23
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9d3b48121ba7e30800000000000000
+      internalID: 4502105535028648399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passive Creatures_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 13
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22346edf244d2770800000000000000
+      internalID: 8587595036850663981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passive Creatures_25
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 14
+        width: 8
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9773bfc3fcc92d70800000000000000
+      internalID: 9018965076319893406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passive Creatures_26
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 13
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65955cc63361e6110800000000000000
+      internalID: 1255965756206963030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passive Creatures_27
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 6
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a62f22062fe1990800000000000000
+      internalID: -7413221441888163256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passive Creatures_28
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 7
+        width: 5
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c6cc4de682c07c0800000000000000
+      internalID: -4103860703959683956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passive Creatures_29
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 7
+        width: 4
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0addfd6538d7f00800000000000000
+      internalID: 1116192691804020974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
