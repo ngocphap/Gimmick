@@ -33,12 +33,11 @@ public class BigEyeController : MonoBehaviour
 
     public AudioClip jumpLandedClip;
 
-    public enum BigEyeColors { Blue, Orange, Red };
+    public enum BigEyeColors { Blue };
     [SerializeField] BigEyeColors bigEyeColor = BigEyeColors.Blue;
 
     [SerializeField] RuntimeAnimatorController racBigEyeBlue;
-    [SerializeField] RuntimeAnimatorController racBigEyeOrange;
-    [SerializeField] RuntimeAnimatorController racBigEyeRed;
+    
 
     public enum MoveDirections { Left, Right };
     [SerializeField] MoveDirections moveDirection = MoveDirections.Left;
@@ -111,35 +110,7 @@ public class BigEyeController : MonoBehaviour
         // get player object - used for jumping direction
         GameObject player = GameObject.FindGameObjectWithTag("Player");
 
-        /*
-         * Big Eye - the cyclops jumping robot springs in the direction of Mega Man trying to squash him. 
-         * In the NES game I believe his jumping between low and high is random but this replica follows 
-         * the jump patterns published in the Mega Man Maker wiki. Reason I chose patterns has to do with 
-         * potential obstacles in his path. He could randomly pick low jumps many times and not clear the 
-         * objects making it look uhhh ooookay. By using the patterns at most it could be two low jumps 
-         * then finally being a high jump and clearing the object in question (unless it's taller than 
-         * his jump height of course). 
-         * 
-         * How this works
-         * 
-         * While grounded he has no velocity therefore stands still. There is a jump timer that counts 
-         * down and once times up looks into performing the jump, however before doing so he checks whether 
-         * he is already following a pattern or is it time to pick a new one at random. Once the pattern 
-         * is chosen the velocity for that jump is fetched. The player's x position is used to determine 
-         * whether he needs to jump left or right. Right of the player, jump left x *= -1, right being 
-         * positive, no change in x velocity. Increment through the pattern index each jump and if the 
-         * last is reached then null the pattern telling Big Eye on next pass to pick a new random pattern.
-         * 
-         * While jumping he uses a constant x velocity to be able to pass objects that initially block his 
-         * path. Originally I used AddForce but as soon as something opposes his forward momentum it's lost. 
-         * Now constant velocity is used to fix that issue. The isJumping flag is for playing the jump landed 
-         * sound in FixedUpdate once isGrounded is set from raycast collision with the Ground layer. This is 
-         * exactly like in the Player code for Mega Man's jump landing audio. Last he checks whether he needs 
-         * to face the opposite direction. Unlike the other enemies that face a constant direction, Big Eye 
-         * checks where the player is and jumps in his direction, so no SetMovementDirection function. The 
-         * x velocity is tested for being less than zero, meaning, he's jumping left. We use the same logic 
-         * as with the other enemies to change the facing direction if needed.
-         */
+        
         if (isGrounded)
         {
             animator.Play("BigEye_Grounded");
@@ -204,12 +175,7 @@ public class BigEyeController : MonoBehaviour
             case BigEyeColors.Blue:
                 animator.runtimeAnimatorController = racBigEyeBlue;
                 break;
-            case BigEyeColors.Orange:
-                animator.runtimeAnimatorController = racBigEyeOrange;
-                break;
-            case BigEyeColors.Red:
-                animator.runtimeAnimatorController = racBigEyeRed;
-                break;
+            
         }
     }
 }

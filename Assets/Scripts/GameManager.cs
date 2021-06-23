@@ -179,7 +179,7 @@ public class GameManager : MonoBehaviour
     }
     private void StartScene1_2Scene()
     {
-        isGameOver = false;
+       /* isGameOver = false;
         playerReady = true;
         initReadyScreen = true;
         firstMessage = true;
@@ -191,12 +191,12 @@ public class GameManager : MonoBehaviour
         SoundManager.Instance.MusicSource.clip = GameObject.Find("Scene 1_2").GetComponent<MainScene>().musicClip;
         SoundManager.Instance.MusicSource.volume = 0.75f;
         SoundManager.Instance.MusicSource.loop = true;
-        SoundManager.Instance.MusicSource.Play();
+        SoundManager.Instance.MusicSource.Play();*/
     }
     private void Sceen1_2SceneLoop()
     {
         // player ready screen - wait the delay time and show READY on screen
-        if (playerReady)
+       /* if (playerReady)
         {
             // initialize objects and set READY text
             if (initReadyScreen)
@@ -249,7 +249,7 @@ public class GameManager : MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
-
+*/
         // scene change triggered by StartNextScene()
         if (startNextScene)
         {

@@ -30,11 +30,23 @@ public class JumbEnemyAttack : MonoBehaviour
 
     [Header("Other")]
     private Rigidbody2D enemyRB;
+    private Animator enemyAnim;
+
+
+    
+
+    
+    Vector2 jumpVelocity = new Vector2(1.0f, 3.0f);
+    
+
+    public AudioClip jumpLandedClip;
+
 
     // Start is called before the first frame update
     void Start()
     {
         enemyRB = GetComponent<Rigidbody2D>();
+        enemyAnim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -44,8 +56,8 @@ public class JumbEnemyAttack : MonoBehaviour
         checkingWall = Physics2D.OverlapCircle(wallCheckPoint.position, circleRadius, groundLayer);
         isGrounded = Physics2D.OverlapBox(groundCheck.position, boxSize, 0, groundLayer);
         canSeePlayer = Physics2D.OverlapBox(transform.position, lineOfSite, 0, playerLayer);
-
-        if(!canSeePlayer && isGrounded)
+        AnimationController();
+        if (!canSeePlayer && isGrounded)
         {
             Petrolling();
         }
@@ -66,6 +78,10 @@ public class JumbEnemyAttack : MonoBehaviour
             }
         }
         enemyRB.velocity = new Vector2(moveSpeed * moveDiretion, enemyRB.velocity.y);
+        if (wallCheckPoint && canSeePlayer)
+        {
+            enemyRB.AddForce(new Vector2(enemyRB.velocity.x  + 10, jumpHeaight), ForceMode2D.Impulse);
+        }
     }
 
     void JumpAttack()
@@ -73,8 +89,25 @@ public class JumbEnemyAttack : MonoBehaviour
         float distanceFromPlayer = player.position.x - transform.position.x;
         if(isGrounded)
         {
-            enemyRB.AddForce(new Vector2(distanceFromPlayer, jumpHeaight), ForceMode2D.Impulse);
+            if (wallCheckPoint && canSeePlayer)
+            {
+                enemyRB.AddForce(new Vector2(enemyRB.velocity.x * distanceFromPlayer + 10, jumpHeaight), ForceMode2D.Impulse);
+            }  //enemyRB.velocity = new Vector2(0, enemyRB.velocity.y);
+               //jumpTimer -= Time.deltaTime;
+
+
+            if (player.transform.position.x <= transform.position.x)
+                {
+                    jumpVelocity.x *= -1;
+                }
+            //enemyRB.velocity = new Vector2(enemyRB.velocity.x+4, jumpVelocity.y);
+              
+            
+            enemyRB.AddForce(new Vector2(enemyRB.velocity.x* distanceFromPlayer + 10, jumpHeaight), ForceMode2D.Impulse);
         }
+
+       
+
     }
 
     void FlipTowardsPlayer()
@@ -96,6 +129,13 @@ public class JumbEnemyAttack : MonoBehaviour
         transform.Rotate(0, 180, 0);
     }
 
+
+    void AnimationController()
+    {
+        enemyAnim.SetBool("canSeePlayer", canSeePlayer);
+        enemyAnim.SetBool("isGrounded", isGrounded);
+
+    }
     //kiem tra
 
     private void OnDrawGizmosSelected()

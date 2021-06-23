@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\ItemScript.cs" />
     <Compile Include="Assets\Scripts\Ememies\BigEyeController.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\AI\Patrol.cs" />
     <Compile Include="Assets\Scripts\Bullet\BounceTowardPlay.cs" />
     <Compile Include="Assets\Scripts\Ememies\KillerBombController.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
@@ -71,18 +72,18 @@
     <Compile Include="Assets\Scripts\ExplosionScript.cs" />
     <Compile Include="Assets\Scripts\Weapons\BulletScript.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\AI\JumbEnemyAttack.cs" />
     <Compile Include="Assets\Scripts\UIHealthBar.cs" />
     <Compile Include="Assets\Scripts\Ememies\Bosses\BombManController.cs" />
     <Compile Include="Assets\Scripts\CameraTransition.cs" />
     <Compile Include="Assets\Scripts\Scenes\TitleScreen.cs" />
     <Compile Include="Assets\Scripts\AssetPalette.cs" />
+    <Compile Include="Assets\Scripts\AI\Enemy_behaviour.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Scenes\IntroScene.cs" />
     <Compile Include="Assets\Scripts\Weapons\BombScript.cs" />
     <Compile Include="Assets\Scripts\UtilityFunctions.cs" />
-    <Compile Include="Assets\Scripts\AI\Patrol.cs" />
-    <Compile Include="Assets\Scripts\AI\Enemy_behaviour.cs" />
-    <Compile Include="Assets\Scripts\AI\JumbEnemyAttack.cs" />
+    <Compile Include="Assets\Scripts\MapLever.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
