@@ -31,8 +31,11 @@ public class PlayerController : MonoBehaviour
     float shootTime;
     bool keyShootRelease;
 
+
+    bool isCheckgroundslip = false;
     RigidbodyConstraints2D rb2dConstraints;
 
+    public float gforce;//invoked from GroudMoveController.cs
     //
     public enum PlayerWeapons { Default, BombMan ,FireMan};
     public PlayerWeapons playerWeapon = PlayerWeapons.Default;
@@ -128,7 +131,20 @@ public class PlayerController : MonoBehaviour
             
             // kiem tra nếu có va cham với movingplatform ,player không di chuyen
             //foreach(var c in tranfromMovingplatform)
-            
+           /* if(isCheckgroundslip==true)
+            {
+                if (!isJumping)
+                {
+                    //Flip();
+                    rb2d.velocity = new Vector2(moveSpeed *0.7f, rb2d.velocity.y);
+                }
+                else
+                {
+                    //Flip();
+                    rb2d.velocity = new Vector2(moveSpeed*7f , rb2d.velocity.y);
+                }
+                
+            }*/
         }
         // draw debug lines
         raycastColor = (isGrounded) ? Color.green : Color.red;
@@ -376,7 +392,12 @@ public class PlayerController : MonoBehaviour
             }
             rb2d.velocity = new Vector2(rb2d.velocity.x, jumpSpeed);
         }
-
+        // check player in groundMoving
+        if (isGrounded)
+        {
+            /*25.6.2021*/
+            rb2d.velocity = new Vector2(rb2d.velocity.x + gforce, rb2d.velocity.y);
+        }
         // while not grounded play jump animation (jumping or falling)
         if (!isGrounded)
         {
@@ -664,7 +685,14 @@ public class PlayerController : MonoBehaviour
         {
             transform.parent = null;
         }
-            
+
+        
+
+
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
         
     }
 }

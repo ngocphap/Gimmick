@@ -10,6 +10,7 @@ TagManager:
   - Tru
   - Ground
   - MovingPlatfrom
+  - GroundSlip
   layers:
   - Default
   - TransparentFX

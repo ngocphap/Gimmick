@@ -674,7 +674,7 @@ public class GameManager : MonoBehaviour
                 break;
            // case ItemScript.ItemTypes.ExtraLife:
              //   bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.ExtraLife];
-                break;
+               // break;
             case ItemScript.ItemTypes.LifeEnergyBig:
                 bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.LifeEnergyBig];
                 break;
