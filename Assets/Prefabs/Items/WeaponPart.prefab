@@ -52,7 +52,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.875, y: 0.9375}
+    oldSize: {x: 0.5, y: 0.5}
     newSize: {x: 1.25, y: 1.3125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -141,7 +141,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 9
-  m_Sprite: {fileID: 864046363699425504, guid: 55e06e43dc7e7b24c87a9299f2f27304, type: 3}
+  m_Sprite: {fileID: 3629067004370084866, guid: 55e06e43dc7e7b24c87a9299f2f27304, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -182,3 +182,7 @@ MonoBehaviour:
   racWeaponPartOrange: {fileID: 22100000, guid: 4e8b2caae1576674b9a0ca331ba2409b, type: 2}
   racWeaponPartRed: {fileID: 22100000, guid: 35c6cc6a57d89704b9c399b526159918, type: 2}
   weaponPartColor: 1
+  weaponPartEnemy: 0
+  BonusItemEvent:
+    m_PersistentCalls:
+      m_Calls: []

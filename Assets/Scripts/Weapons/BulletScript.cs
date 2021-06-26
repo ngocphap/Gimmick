@@ -112,6 +112,11 @@ public class BulletScript : MonoBehaviour
     {
         // set bullet direction vector
         this.bulletDirection = direction;
+        //rotate the bullet for the highlight pixels
+        if(direction.x>0)
+        {
+            transform.Rotate(0,180f, 0);
+        }
     }
 
     public void SetDamageValue(int damage)

@@ -18,7 +18,7 @@ public class ExplosionScript : MonoBehaviour
         this.collideWithTags = tags;
     }
 
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         // we only apply damage when this value is set
         // not all explosions affect the player i.e. smaller ones

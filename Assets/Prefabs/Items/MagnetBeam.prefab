@@ -140,7 +140,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 9
+  m_SortingOrder: 15
   m_Sprite: {fileID: -1211912646607545029, guid: 4a12505f2b61da14e9217a85d559a019, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -176,8 +176,13 @@ MonoBehaviour:
   racBonusBallGreen: {fileID: 0}
   racBonusBallOrange: {fileID: 0}
   racBonusBallRed: {fileID: 0}
+  racBonusBallBlack: {fileID: 0}
   bonusBallColor: 1
   racWeaponPartBlue: {fileID: 0}
   racWeaponPartOrange: {fileID: 0}
   racWeaponPartRed: {fileID: 0}
   weaponPartColor: 1
+  weaponPartEnemy: 0
+  BonusItemEvent:
+    m_PersistentCalls:
+      m_Calls: []

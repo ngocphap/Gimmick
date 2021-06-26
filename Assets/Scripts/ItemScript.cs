@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 // all items will require these components
 [RequireComponent(typeof(Animator))]
@@ -16,19 +17,27 @@ public class ItemScript : MonoBehaviour
     Rigidbody2D rb2d;
     SpriteRenderer sprite;
 
+    //ColorSwap colorSwap;
+
+    private enum SwapIndex
+    {
+        Primary = 64,
+        Secondary = 128
+    }
+
     public enum ItemTypes
     {
         Nothing,
         Random,
         BonusBall,
-        //ExtraLife,
+       // ExtraLife,
         LifeEnergyBig,
         LifeEnergySmall,
         WeaponEnergyBig,
         WeaponEnergySmall,
-        //MagnetBeam,
+       // MagnetBeam,
         WeaponPart,
-        Yashichi
+       // Yashichi
     };
 
     [SerializeField] ItemTypes itemType;
@@ -58,6 +67,11 @@ public class ItemScript : MonoBehaviour
     [SerializeField] RuntimeAnimatorController racWeaponPartRed;
     public enum WeaponPartColors { Random, Blue, Orange, Red };
     [SerializeField] WeaponPartColors weaponPartColor = WeaponPartColors.Blue;
+    public enum WeaponPartEnemies { None, BombMan, FireMan };
+    [SerializeField] WeaponPartEnemies weaponPartEnemy = WeaponPartEnemies.None;
+
+    [Header("Bonus Item Events")]
+    public UnityEvent BonusItemEvent;
 
     void Awake()
     {
@@ -71,13 +85,17 @@ public class ItemScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // color swap component to change item's palette
+        //colorSwap = GetComponent<ColorSwap>();
+
+        // set the color swap palette
+        SetColorPalette();
+
         // if no animation then default to the first frame
         Animate(animate);
 
         // if there is a delay set then apply it
-        
-            SetDestroyDelay(destroyDelay);
-       
+        SetDestroyDelay(destroyDelay);
 
         // set bonus ball color
         if (itemType == ItemTypes.BonusBall)
@@ -109,11 +127,10 @@ public class ItemScript : MonoBehaviour
     public void SetDestroyDelay(float delay)
     {
         destroyDelay = delay;
-        if(delay >0)
+        if (delay > 0)
         {
             Destroy(gameObject, delay);
         }
-        
     }
 
     public void SetBonusBallColor(BonusBallColors color)
@@ -155,6 +172,9 @@ public class ItemScript : MonoBehaviour
             case BonusBallColors.Red:
                 animator.runtimeAnimatorController = racBonusBallRed;
                 break;
+            case BonusBallColors.Black:
+                animator.runtimeAnimatorController = racBonusBallBlack;
+                break;
         }
     }
 
@@ -194,6 +214,48 @@ public class ItemScript : MonoBehaviour
         }
     }
 
+    public void SetColorPalette()
+    {
+        // not all bonus items have the ColorSwap component
+        // only the Extra Life, Magnet Beam and Weapon Energies
+       // if (colorSwap != null)
+        {
+            // default to megabuster / magnetbeam colors
+            // dark blue, light blue
+           // colorSwap.SwapColor((int)SwapIndex.Primary, ColorSwap.ColorFromInt(0x0073F7));
+           // colorSwap.SwapColor((int)SwapIndex.Secondary, ColorSwap.ColorFromInt(0x00FFFF));
+
+            // find the player's controller to access the weapon type
+            PlayerController player = GameObject.FindObjectOfType<PlayerController>();
+            if (player != null)
+            {
+                // apply new selected color scheme with ColorSwap
+                switch (player.playerWeapon)
+                {
+                    case PlayerController.WeaponTypes.BombMan:
+                        // green, light gray
+                       // colorSwap.SwapColor((int)SwapIndex.Primary, ColorSwap.ColorFromInt(0x009400));
+                        //colorSwap.SwapColor((int)SwapIndex.Secondary, ColorSwap.ColorFromInt(0xFCFCFC));
+                        break;
+                    case PlayerController.WeaponTypes.FireMan:
+                        // dark gray, light gray
+                        //colorSwap.SwapColor((int)SwapIndex.Primary, ColorSwap.ColorFromInt(0x747474));
+                       // colorSwap.SwapColor((int)SwapIndex.Secondary, ColorSwap.ColorFromInt(0xFCFCFC));
+                        break;
+                    case PlayerController.WeaponTypes.GimmickBuster:
+                        // dark gray, light yellow
+                       //colorSwap.SwapColor((int)SwapIndex.Primary, ColorSwap.ColorFromInt(0x747474));
+                       // colorSwap.SwapColor((int)SwapIndex.Secondary, ColorSwap.ColorFromInt(0xFCE4A0));
+                        break;
+                   
+                }
+            }
+
+            // apply the color changes
+           // colorSwap.ApplyColor();
+        }
+    }
+
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -202,11 +264,13 @@ public class ItemScript : MonoBehaviour
 
             if (lifeEnergy > 0)
             {
+                // add to player health energy
                 player.ApplyLifeEnergy(lifeEnergy);
             }
 
             if (weaponEnergy > 0)
             {
+                // add to current weapon energy
                 player.ApplyWeaponEnergy(weaponEnergy);
             }
 
@@ -216,10 +280,24 @@ public class ItemScript : MonoBehaviour
                 GameManager.Instance.AddBonusPoints(bonusPoints);
             }
 
+            
+
+            if (itemType == ItemTypes.WeaponPart)
+            {
+                // collected a weapon part from a defeated boss
+                player.EnableWeaponPart(weaponPartEnemy);
+            }
+
             // play item sound
             if (itemClip != null)
             {
                 SoundManager.Instance.Play(itemClip);
+            }
+
+            // invoke the bonus item event
+            if (BonusItemEvent != null)
+            {
+                BonusItemEvent.Invoke();
             }
 
             // remove the item

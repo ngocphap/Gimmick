@@ -210,7 +210,7 @@ public class BombManController : MonoBehaviour
         bomb.GetComponent<BombScript>().SetTargetOffset(offset);
         bomb.GetComponent<BombScript>().SetHeight(1f);
         bomb.GetComponent<BombScript>().Bounces(false);
-        bomb.GetComponent<BombScript>().Launch();
+        bomb.GetComponent<BombScript>().Launch(true);
         /* 
          * this block of code will be for how to set up MegaMan's hyperbomb usage
          * and moved out when we get to the boss fight and weapon part collection

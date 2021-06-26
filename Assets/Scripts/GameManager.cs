@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -37,6 +38,7 @@ public class GameManager : MonoBehaviour
     public float gameRestartDelay = 5f;
     public float gamePlayerReadyDelay = 3f;
 
+    PlayerController.WeaponsStruct[] playerWeapons;
     public enum GameStates { TitleScreen,IntroScene, MainScene,Scene1_2 };
     public GameStates gameState = GameStates.TitleScreen;
 
@@ -346,7 +348,79 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("Scene 1_2");
         }
     }
+    public void SavePlayerWeapons()
+    {
+        // save the player weapons structs
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            playerWeapons = player.GetComponent<PlayerController>().weaponsData;
+        }
+    }
 
+    public void RestorePlayerWeapons()
+    {
+        // restore the player weapons structs
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null && playerWeapons != null)
+        {
+            player.GetComponent<PlayerController>().weaponsData = playerWeapons;
+        }
+    }
+    /*public void PlayerDefeated()
+    {
+        // game over :(
+        isGameOver = true;
+        gameRestartTime = gameRestartDelay;
+        // stop all sounds
+        SoundManager.Instance.Stop();
+        SoundManager.Instance.StopMusic();
+        // freeze player and input
+        FreezePlayer(true);
+        // freeze all enemies
+        FreezeEnemies(true);
+        // remove all bullets
+        GameObject[] bullets = GameObject.FindGameObjectsWithTag("Bullet");
+        foreach (GameObject bullet in bullets)
+        {
+            Destroy(bullet);
+        }
+        // remove all explosions
+        GameObject[] explosions = GameObject.FindGameObjectsWithTag("Explosion");
+        foreach (GameObject explosion in explosions)
+        {
+            Destroy(explosion);
+        }
+    }*/
+    public void PlayerDefeated()
+    {
+        // game over :(
+        isGameOver = true;
+        gameRestartTime = gameRestartDelay;
+        // stop all sounds
+        SoundManager.Instance.Stop();
+        SoundManager.Instance.StopMusic();
+        // freeze player and input
+        FreezePlayer(true);
+        // freeze all enemies
+        FreezeEnemies(true);
+        // destroy all weapons
+        DestroyWeapons();
+        // save player weapons
+        SavePlayerWeapons();
+    }
+    public void DestroyWeapons()
+    {
+        // remove all bullets
+        GameObject[] bullets = GameObject.FindGameObjectsWithTag("Bullet");
+        foreach (GameObject bullet in bullets) Destroy(bullet);
+        // remove all bombs
+        GameObject[] bombs = GameObject.FindGameObjectsWithTag("Bomb");
+        foreach (GameObject bomb in bombs) Destroy(bomb);
+        // remove all explosions
+        GameObject[] explosions = GameObject.FindGameObjectsWithTag("Explosion");
+        foreach (GameObject explosion in explosions) Destroy(explosion);
+    }
     // objects that offer score points should call this method upon their defeat to add to the player's score
     public void AddScorePoints(int points)
     {
@@ -394,31 +468,7 @@ public class GameManager : MonoBehaviour
 
    
 
-    public void PlayerDefeated()
-    {
-        // game over :(
-        isGameOver = true;
-        gameRestartTime = gameRestartDelay;
-        // stop all sounds
-        SoundManager.Instance.Stop();
-        SoundManager.Instance.StopMusic();
-        // freeze player and input
-        FreezePlayer(true);
-        // freeze all enemies
-        FreezeEnemies(true);
-        // remove all bullets
-        GameObject[] bullets = GameObject.FindGameObjectsWithTag("Bullet");
-        foreach (GameObject bullet in bullets)
-        {
-            Destroy(bullet);
-        }
-        // remove all explosions
-        GameObject[] explosions = GameObject.FindGameObjectsWithTag("Explosion");
-        foreach (GameObject explosion in explosions)
-        {
-            Destroy(explosion);
-        }
-    }
+    
 
     private void GetWorldViewCoordinates()
     {
@@ -690,9 +740,9 @@ public class GameManager : MonoBehaviour
            // case ItemScript.ItemTypes.MagnetBeam:
             //    bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.MagnetBeam];
             //    break;
-           // case ItemScript.ItemTypes.WeaponPart:
-           //     bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.WeaponPart];
-            //    break;
+            //case ItemScript.ItemTypes.WeaponPart:
+            //    bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.];
+             //   break;
            // case ItemScript.ItemTypes.Yashichi:
            //     bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.Yashichi];
            //     break;
@@ -700,5 +750,14 @@ public class GameManager : MonoBehaviour
 
         // return bonus item prefab
         return bonusItem;
+    }
+    public void SetBonusItemsColorPalette()
+    {
+        // find all objects with the item script and update the color palettes
+        ItemScript[] itemScripts = GameObject.FindObjectsOfType<ItemScript>();
+        foreach (ItemScript itemScript in itemScripts)
+        {
+            itemScript.SetColorPalette();
+        }
     }
 }

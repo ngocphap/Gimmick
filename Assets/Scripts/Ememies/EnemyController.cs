@@ -24,6 +24,9 @@ public class EnemyController : MonoBehaviour
 
     public bool freezeEnemy;
 
+    public bool hasHealthBar;
+
+    [Header("Enemy Settings")]
     public int scorePoints = 500;
     public int currentHealth;
     public int maxHealth = 1;
@@ -38,6 +41,7 @@ public class EnemyController : MonoBehaviour
     public ItemScript.WeaponPartColors weaponPartColor;
     public float bonusDestroyDelay = 5f;
     public Vector2 bonusVelocity = new Vector2(0, 3f);
+    public UnityAction BonusItemAction;
 
     [Header("Audio Clips")]
     public AudioClip damageClip;
@@ -86,12 +90,25 @@ public class EnemyController : MonoBehaviour
         // take damage if not invincible
         if (!isInvincible)
         {
-            // invoke take damage event
-            TakeDamageEvent.Invoke();
             // take damage amount from health and call defeat if no health
-            currentHealth -= damage;
-            currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-            SoundManager.Instance.Play(damageClip);
+            if (damage > 0)
+            {
+                // invoke take damage event
+                TakeDamageEvent.Invoke();
+                // update health value and energy bar
+                currentHealth -= damage;
+                currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+                if (hasHealthBar && UIEnergyBars.Instance != null)
+                {
+                   // UIEnergyBars.Instance.SetValue(UIEnergyBars.EnergyBars.PlayerWeapon3, currentHealth / (float)maxHealth);
+                }
+                // play taking damage sound clip
+                if (damageClip != null)
+                {
+                    SoundManager.Instance.Play(damageClip);
+                }
+            }
+            // no more health means defeat
             if (currentHealth <= 0)
             {
                 Defeat();
@@ -127,6 +144,11 @@ public class EnemyController : MonoBehaviour
             bonusItem.GetComponent<ItemScript>().SetDestroyDelay(bonusDestroyDelay);
             bonusItem.GetComponent<ItemScript>().SetBonusBallColor(bonusBallColor);
             bonusItem.GetComponent<ItemScript>().SetWeaponPartColor(weaponPartColor);
+            if (BonusItemAction != null)
+            {
+                // add bonus item action(s) to event
+                bonusItem.GetComponent<ItemScript>().BonusItemEvent.AddListener(BonusItemAction);
+            }
             // give the bonus item a bounce effect
             bonusItem.GetComponent<Rigidbody2D>().velocity = bonusVelocity;
         }

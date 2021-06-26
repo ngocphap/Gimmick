@@ -19,26 +19,27 @@ public class BombScript : MonoBehaviour
     // default the settings for use by the player
     [Header("Bomb Damage")]
     [SerializeField] int contactDamage = 0;
-    [SerializeField] int explosionDamage = 4;
+    [SerializeField] int explosionDamage = 2;
 
     [Header("Audio Clips")]
     [SerializeField] AudioClip explosionClip;
 
     [Header("Timers & Collision")]
-    [SerializeField] float explodeDelay = 3f;
+    [SerializeField] float explodeDelay = 2f;
 
     [SerializeField] string[] collideWithTags;
 
     [Header("Positions & Physics")]
     [SerializeField] float gravity;
     [SerializeField] float height = 1f;
-    [SerializeField] float targetOffset = 0.15f;
+    [SerializeField] float targetOffset = 0.5f;
+    [SerializeField] float bulletSpeed;
 
     [SerializeField] Vector3 sourcePosition;
     [SerializeField] Vector3 targetPosition;
 
     [SerializeField] Vector2 bombDirection = Vector2.right;
-    [SerializeField] Vector2 launchVelocity = new Vector3(2f, 1.5f);
+    [SerializeField] Vector2 launchVelocity = new Vector3(5f, 1.5f);
 
     [Header("Materials & Prefabs")]
     [SerializeField] PhysicsMaterial2D bounceMaterial;
@@ -51,14 +52,16 @@ public class BombScript : MonoBehaviour
         circle2d = GetComponent<CircleCollider2D>();
         rb2d = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
+
+        // make bomb as a static type of object
+        circle2d.isTrigger = true;
+        rb2d.isKinematic = true;
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        // make bomb as a static type of object
-        circle2d.isTrigger = true;
-        rb2d.isKinematic = true;
+        
     }
 
     // Update is called once per frame
@@ -79,6 +82,7 @@ public class BombScript : MonoBehaviour
             }
         }
     }
+
 
     public void SetContactDamageValue(int damage)
     {
@@ -108,6 +112,12 @@ public class BombScript : MonoBehaviour
     {
         // if no target is set then this direction is used in conjunction with the velocity
         this.bombDirection = direction;
+
+        //bom face left by default ,flip if mecessary
+        if(direction.x>0)
+        {
+            transform.Rotate(0,180f, 0);
+        }
     }
 
     public void SetHeight(float height)
@@ -145,32 +155,37 @@ public class BombScript : MonoBehaviour
         // the bomb can collide with these tags
         this.collideWithTags = tags;
     }
-
+    public void SetBulletSpeed(float speed)
+    {
+        // set bullet speed
+        this.bulletSpeed = speed;
+    }
     // launch the bomb has two scenarios
     // 1st case - target position isn't null means the velocity and direction vectors won't be used
     // the velocity is calculated using the kinematic equation and gravity and offset will be used
     // this case is for BombMan however could be used by other characters
     // 2nd case - target position is null so use straight velocity and direction to launch the bomb
     // this case is for MegaMan however could be used by other characters
-    public void Launch()
+    public void Launch(bool calculateLaunch)
     {
         // make the bomb solid and have a dynamic rigidbody
         circle2d.isTrigger = false;
         rb2d.isKinematic = false;
 
-        if (targetPosition != null)
+        if (calculateLaunch )
         {
             // launch bomb to target and apply offset if any
             if (gravity == 0) gravity = Physics2D.gravity.y;
             Vector3 bombPos = sourcePosition;
             Vector3 playerPos = targetPosition;
-            if (targetOffset != 0) playerPos.x += targetOffset;
-            rb2d.velocity = UtilityFunctions.CalculateLaunchData(bombPos, playerPos, height, gravity).initialVelocity;
+            if (targetOffset != 0) playerPos.x += targetOffset*3;
+           // rb2d.velocity = bulletDirection * bulletSpeed;
+            rb2d.velocity = UtilityFunctions.CalculateLaunchData(bombPos, playerPos, height*3, gravity).initialVelocity;
         }
         else
         {
             // no target set - use launch velocity instead
-            Vector2 velocity = this.launchVelocity;
+            Vector2 velocity = this.launchVelocity*3;
             velocity.x *= this.bombDirection.x;
             rb2d.AddForce(velocity, ForceMode2D.Impulse);
         }

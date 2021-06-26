@@ -158,7 +158,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 15
   m_Sprite: {fileID: -1392189699596056505, guid: 4a12505f2b61da14e9217a85d559a019, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -192,10 +192,11 @@ MonoBehaviour:
   collideWithTags: []
   gravity: 0
   height: 1
-  targetOffset: 0.15
+  targetOffset: 20
+  bulletSpeed: 2
   sourcePosition: {x: 0, y: 0, z: 0}
   targetPosition: {x: 0, y: 0, z: 0}
-  bombDirection: {x: 1, y: 0}
-  launchVelocity: {x: 2, y: 1.5}
+  bombDirection: {x: 5, y: 0}
+  launchVelocity: {x: 13.33, y: 1.5}
   bounceMaterial: {fileID: 6200000, guid: ec68e069c307c274e8d38eaf4c289f40, type: 2}
   explodeEffectPrefab: {fileID: 3695105044947109386, guid: f4e80ee18579ccd49ba46d8c9b504dda, type: 3}

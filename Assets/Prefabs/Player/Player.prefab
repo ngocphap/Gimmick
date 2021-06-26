@@ -192,21 +192,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3df650c6794581d4d9532b4049f43e83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerWeapons: 0
+  gforce: 0
+  playerWeapon: 0
   playerWeaponStructs:
   - weapon: 0
     currentEnergy: 1
     maxEnergy: 1
+    energyCost: 0
+    weaponDamage: 0
+    weaponPrefab: {fileID: 0}
   - weapon: 1
     currentEnergy: 1
     maxEnergy: 1
+    energyCost: 0
+    weaponDamage: 0
+    weaponPrefab: {fileID: 0}
   - weapon: 2
     currentEnergy: 1
     maxEnergy: 1
+    energyCost: 0
+    weaponDamage: 0
+    weaponPrefab: {fileID: 0}
   currentHealth: 1
   maxHealth: 4
   moveSpeed: 4
-  jumpSpeed: 8
+  jumpSpeed: 9
   bulletDamage: 1
   bulletSpeed: 7
   jumpLandedClip: {fileID: 8300000, guid: 93f1240c0c47e784fbd209e5ba200acd, type: 3}

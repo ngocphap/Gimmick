@@ -169,7 +169,7 @@ MonoBehaviour:
   destroyDelay: 0
   lifeEnergy: 1
   weaponEnergy: 0
-  bonusPoints: 0
+  bonusPoints: 2000
   itemClip: {fileID: 8300000, guid: 63f664a0ede1285408911ef012d50976, type: 3}
   racBonusBallBlue: {fileID: 0}
   racBonusBallGray: {fileID: 0}
@@ -182,3 +182,7 @@ MonoBehaviour:
   racWeaponPartOrange: {fileID: 0}
   racWeaponPartRed: {fileID: 0}
   weaponPartColor: 1
+  weaponPartEnemy: 0
+  BonusItemEvent:
+    m_PersistentCalls:
+      m_Calls: []
