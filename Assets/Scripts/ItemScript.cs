@@ -274,10 +274,10 @@ public class ItemScript : MonoBehaviour
                 player.ApplyWeaponEnergy(weaponEnergy);
             }
 
-            if (bonusPoints > 0)
+            if (bonusPoints >= 0)
             {
                 // call game manager to add bonus points
-                GameManager.Instance.AddBonusPoints(bonusPoints);
+                GameManager.Instance.AddScorePoints(bonusPoints);
             }
 
             

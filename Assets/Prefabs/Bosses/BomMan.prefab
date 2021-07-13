@@ -250,12 +250,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610369212220007527}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43fc1b16a811d17478fbe0e4b0bbc222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   freezeEnemy: 0
+  hasHealthBar: 0
   scorePoints: 10000
   currentHealth: 0
   maxHealth: 10
@@ -323,6 +324,7 @@ MonoBehaviour:
   bombPrefab: {fileID: 1362261151485084172, guid: 40a669391deb73342a00c20dd28cd337, type: 3}
   damageSprite: {fileID: 1610369213112075607}
   moveDirection: 0
+  enemyDenBombPrefab: {fileID: 4849739506317012224, guid: fd2a2c4a573d0f048bc43c77e560768e, type: 3}
 --- !u!1 &1610369213112075605
 GameObject:
   m_ObjectHideFlags: 0

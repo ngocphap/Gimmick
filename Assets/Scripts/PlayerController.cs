@@ -456,9 +456,7 @@ public class PlayerController : MonoBehaviour
         switch (playerWeapon)
         {
             case WeaponTypes.GimmickBuster:
-                // dark blue, light blue
-                //  colorSwap.SwapColor((int)SwapIndex.Primary, ColorSwap.ColorFromInt(0x0073F7));
-                //   colorSwap.SwapColor((int)SwapIndex.Secondary, ColorSwap.ColorFromInt(0x00FFFF));
+                
                 // the player weapon energy doesn't apply but we'll just set the default and hide it
                 if (UIEnergyBars.Instance != null)
                 {
@@ -467,9 +465,7 @@ public class PlayerController : MonoBehaviour
                 }
                 break;
             case WeaponTypes.BombMan:
-                // dark blue, light blue
-                //  colorSwap.SwapColor((int)SwapIndex.Primary, ColorSwap.ColorFromInt(0x0073F7));
-                // colorSwap.SwapColor((int)SwapIndex.Secondary, ColorSwap.ColorFromInt(0x00FFFF));
+               
                 // magnet beam energy and set visible
                 if (UIEnergyBars.Instance != null)
                 {
@@ -479,9 +475,7 @@ public class PlayerController : MonoBehaviour
                 }
                 break;
             case WeaponTypes.FireMan:
-                // green, light gray
-                // colorSwap.SwapColor((int)SwapIndex.Primary, ColorSwap.ColorFromInt(0x009400));
-                // colorSwap.SwapColor((int)SwapIndex.Secondary, ColorSwap.ColorFromInt(0xFCFCFC));
+                
                 // bombman's hyper bomb weapon energy and set visible
                 if (UIEnergyBars.Instance != null)
                 {
@@ -839,8 +833,7 @@ public class PlayerController : MonoBehaviour
 
     void StartDamageAnimation()
     {
-        // once isTakingDamage is true in the Update function we'll play the Hit animation
-        // here we go invincible so we don't repeatedly take damage, determine the X push force
+        
         // depending which side we were hit on, and then apply that force
         if (!isTakingDamage)
         {
@@ -858,8 +851,7 @@ public class PlayerController : MonoBehaviour
 
     void StopDamageAnimation()
     {
-        // this function is called at the end of the Hit animation
-        // and we reset the animation because it doesn't loop otherwise
+        
         // we can end up stuck in it
         isTakingDamage = false;
         //Invincible(false);
@@ -886,31 +878,53 @@ public class PlayerController : MonoBehaviour
         }
         Invincible(false);
     }
-    void StartDefeatAnimation()
+    /* void StartDefeatAnimation()
+     {
+         // freeze player and input and go KABOOM!
+         FreezeInput(true);
+         FreezePlayer(true);
+         GameObject explodeEffect = Instantiate(explodeEffectPrefab);
+         explodeEffect.name = explodeEffectPrefab.name;
+         explodeEffect.transform.position = sprite.bounds.center;
+         SoundManager.Instance.Play(explodeEffectClip);
+         Destroy(gameObject);
+     }*/
+    //SUa player chet khi roi vao khoan không va lua
+    private IEnumerator StartDefeatAnimation(bool explode)
     {
-        // freeze player and input and go KABOOM!
+        // half second delay before we do it
+        yield return new WaitForSeconds(0.5f);
+        // freeze player and input and go KABOOM! (if enabled)
         FreezeInput(true);
         FreezePlayer(true);
-        GameObject explodeEffect = Instantiate(explodeEffectPrefab);
-        explodeEffect.name = explodeEffectPrefab.name;
-        explodeEffect.transform.position = sprite.bounds.center;
+        if (explode)
+        {
+            GameObject explodeEffect = Instantiate(explodeEffectPrefab);
+            explodeEffect.name = explodeEffectPrefab.name;
+            explodeEffect.transform.position = sprite.bounds.center;
+        }
         SoundManager.Instance.Play(explodeEffectClip);
         Destroy(gameObject);
     }
-
     void StopDefeatAnimation()
     {
         FreezeInput(false);
         FreezePlayer(false);
     }
-
-    void Defeat()
+    public void Defeat(bool explode = true)
     {
         // tell the game manager we died so it can take control
         GameManager.Instance.PlayerDefeated();
-        // we died! player defeat animation - half second delay
-        Invoke("StartDefeatAnimation", 0.5f);
+        // we died! player defeat animation
+        StartCoroutine(StartDefeatAnimation(explode));
     }
+    /* void Defeat()
+     {
+         // tell the game manager we died so it can take control
+         GameManager.Instance.PlayerDefeated();
+         // we died! player defeat animation - half second delay
+         Invoke("StartDefeatAnimation", 0.5f);
+     }*/
 
     public void FreezeInput(bool freeze)
     {

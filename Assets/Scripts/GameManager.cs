@@ -32,6 +32,10 @@ public class GameManager : MonoBehaviour
     int bonusCount;
     int bonusScore;
 
+    int playerRest = 5;
+    int bonusRest;
+
+
     float gameRestartTime;
     float gamePlayerReadyTime;
 
@@ -39,7 +43,7 @@ public class GameManager : MonoBehaviour
     public float gamePlayerReadyDelay = 3f;
 
     PlayerController.WeaponsStruct[] playerWeapons;
-    public enum GameStates { TitleScreen,IntroScene, MainScene,Scene1_2 };
+    public enum GameStates { TitleScreen, IntroScene, MainScene, Scene1_2, Scene_EndGame };
     public GameStates gameState = GameStates.TitleScreen;
 
     public struct WorldViewCoordinates
@@ -53,6 +57,7 @@ public class GameManager : MonoBehaviour
 
     TextMeshProUGUI playerScoreText;
     TextMeshProUGUI screenMessageText;
+    TextMeshProUGUI playerRestText;
 
     // Initialize the singleton instance
     private void Awake()
@@ -97,7 +102,7 @@ public class GameManager : MonoBehaviour
         // init functions for each scene / game state
         switch (gameState)
         {
-           
+
             case GameStates.TitleScreen:
                 StartTitleScreen();
                 break;
@@ -109,6 +114,9 @@ public class GameManager : MonoBehaviour
                 break;
             case GameStates.Scene1_2:
                 StartScene1_2Scene();
+                break;
+            case GameStates.Scene_EndGame:
+                StartScene_EndGame();
                 break;
         }
     }
@@ -124,7 +132,7 @@ public class GameManager : MonoBehaviour
         // game loop functions for each scene / game state
         switch (gameState)
         {
-            
+
             case GameStates.TitleScreen:
                 TitleScreenLoop();
                 break;
@@ -137,9 +145,25 @@ public class GameManager : MonoBehaviour
             case GameStates.Scene1_2:
                 Sceen1_2SceneLoop();
                 break;
+            case GameStates.Scene_EndGame:
+                SceenScene_EndGameLoop();
+                break;
         }
     }
-
+    public void StartScene_EndGame()
+    {
+        // startNextScene = true;
+    }
+    public void SceenScene_EndGameLoop()
+    {
+        if (startNextScene)
+        {
+            // can do other things here before loading the next scene
+            startNextScene = false;
+            gameState = GameStates.TitleScreen;
+            SceneManager.LoadScene("Title Screen");
+        }
+    }
     public void StartNextScene()
     {
         // flag to trigger starting the next scene
@@ -181,77 +205,23 @@ public class GameManager : MonoBehaviour
     }
     private void StartScene1_2Scene()
     {
-       /* isGameOver = false;
-        playerReady = true;
-        initReadyScreen = true;
-        firstMessage = true;
-        gamePlayerReadyTime = gamePlayerReadyDelay;
-        // get tmp text objects for score and screen message
-        playerScoreText = GameObject.Find("PlayerScore").GetComponent<TextMeshProUGUI>();
-        screenMessageText = GameObject.Find("ScreenMessage").GetComponent<TextMeshProUGUI>();
-        // set up the scene music - 3/4 volume, loop, and play
-        SoundManager.Instance.MusicSource.clip = GameObject.Find("Scene 1_2").GetComponent<MainScene>().musicClip;
-        SoundManager.Instance.MusicSource.volume = 0.75f;
-        SoundManager.Instance.MusicSource.loop = true;
-        SoundManager.Instance.MusicSource.Play();*/
+        /* isGameOver = false;
+         playerReady = true;
+         initReadyScreen = true;
+         firstMessage = true;
+         gamePlayerReadyTime = gamePlayerReadyDelay;
+         // get tmp text objects for score and screen message
+         playerScoreText = GameObject.Find("PlayerScore").GetComponent<TextMeshProUGUI>();
+         screenMessageText = GameObject.Find("ScreenMessage").GetComponent<TextMeshProUGUI>();
+         // set up the scene music - 3/4 volume, loop, and play
+         SoundManager.Instance.MusicSource.clip = GameObject.Find("Scene 1_2").GetComponent<MainScene>().musicClip;
+         SoundManager.Instance.MusicSource.volume = 0.75f;
+         SoundManager.Instance.MusicSource.loop = true;
+         SoundManager.Instance.MusicSource.Play();*/
     }
     private void Sceen1_2SceneLoop()
     {
-        // player ready screen - wait the delay time and show READY on screen
-       /* if (playerReady)
-        {
-            // initialize objects and set READY text
-            if (initReadyScreen)
-            {
-                FreezePlayer(true);
-                FreezeEnemies(true);
-                screenMessageText.alignment = TextAlignmentOptions.Center;
-                screenMessageText.alignment = TextAlignmentOptions.Top;
-                screenMessageText.fontStyle = FontStyles.UpperCase;
-                screenMessageText.fontSize = 24;
-                //screenMessageText.text = "\n\n\n\nREADY";
-                initReadyScreen = false;
-            }
-            // countdown READY screen pause
-            gamePlayerReadyTime -= Time.deltaTime;
-            if (gamePlayerReadyTime < 0)
-            {
-                FreezePlayer(false);
-                FreezeEnemies(false);
-             //   TeleportPlayer(true);
-                screenMessageText.text = "";
-                playerReady = false;
-            }
-            return;
-        }
 
-        // show player score
-        if (playerScoreText != null)
-        {
-            playerScoreText.text = String.Format("<mspace=\"{0}\">{1:0000000}</mspace>", playerScoreText.fontSize, playerScore);
-        }
-
-        // if the game isn't over then spawn enemies
-        if (!isGameOver)
-        {
-            // here is where we can do things while the game is running
-            GetWorldViewCoordinates();
-            //ShowMessage();
-            UpdateScore();
-            //SpawnEnemies();
-            RepositionEnemies();
-            DestroyStrayBullets();
-        }
-        else
-        {
-            // game over, wait delay then reload scene
-            gameRestartTime -= Time.deltaTime;
-            if (gameRestartTime < 0)
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            }
-        }
-*/
         // scene change triggered by StartNextScene()
         if (startNextScene)
         {
@@ -276,8 +246,9 @@ public class GameManager : MonoBehaviour
         // get tmp text objects for score and screen message
         playerScoreText = GameObject.Find("PlayerScore").GetComponent<TextMeshProUGUI>();
         screenMessageText = GameObject.Find("ScreenMessage").GetComponent<TextMeshProUGUI>();
+        playerRestText = GameObject.Find("PlayerRest").GetComponent<TextMeshProUGUI>();
         // set up the scene music - 3/4 volume, loop, and play
-        SoundManager.Instance.MusicSource.clip = GameObject.Find("Main Scene").GetComponent<MainScene>().musicClip;
+        //SoundManager.Instance.MusicSource.clip = GameObject.Find("Main Scene").GetComponent<MainScene>().musicClip;
         SoundManager.Instance.MusicSource.volume = 0.75f;
         SoundManager.Instance.MusicSource.loop = true;
         SoundManager.Instance.MusicSource.Play();
@@ -285,6 +256,7 @@ public class GameManager : MonoBehaviour
 
     private void MainSceneLoop()
     {
+        int count = 0;
         // player ready screen - wait the delay time and show READY on screen
         if (playerReady)
         {
@@ -306,7 +278,7 @@ public class GameManager : MonoBehaviour
             {
                 FreezePlayer(false);
                 FreezeEnemies(false);
-             //   TeleportPlayer(true);
+                //   TeleportPlayer(true);
                 screenMessageText.text = "";
                 playerReady = false;
             }
@@ -318,7 +290,12 @@ public class GameManager : MonoBehaviour
         {
             playerScoreText.text = String.Format("<mspace=\"{0}\">{1:0000000}</mspace>", playerScoreText.fontSize, playerScore);
         }
-
+        if (playerRestText != null)
+        {
+            playerRestText.text = String.Format("<mspace=\"{0}\">{1:00}</mspace>", playerScoreText.fontSize, playerRest);
+        }
+        //count = bonusScore % 20000;
+        //bonusRest = bonusRest + count;
         // if the game isn't over then spawn enemies
         if (!isGameOver)
         {
@@ -336,8 +313,14 @@ public class GameManager : MonoBehaviour
             gameRestartTime -= Time.deltaTime;
             if (gameRestartTime < 0)
             {
+                playerRest--;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                if (playerRest < 0)
+                {
+                    playerRest = 5;
+                }
             }
+
         }
 
         if (startNextScene)
@@ -424,15 +407,26 @@ public class GameManager : MonoBehaviour
     // objects that offer score points should call this method upon their defeat to add to the player's score
     public void AddScorePoints(int points)
     {
+        int count = 0;
         playerScore += points;
+
+
+        count = points / 20000;
+        playerRest = playerRest + count;
+
     }
 
     // keep track of how many bonus balls are collected and add up the points
     // at the end of a boss battle the bonus score would be added to the overall player score
     public void AddBonusPoints(int points)
     {
+        int count = 0;
         bonusCount++;
         bonusScore += points;
+
+        // count = bonusScore % 20000;
+        // bonusRest = bonusRest + count;
+
     }
 
     private void FreezePlayer(bool freeze)
@@ -466,9 +460,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-   
 
-    
+
+
 
     private void GetWorldViewCoordinates()
     {
@@ -722,9 +716,9 @@ public class GameManager : MonoBehaviour
             case ItemScript.ItemTypes.BonusBall:
                 bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.BonusBall];
                 break;
-           // case ItemScript.ItemTypes.ExtraLife:
-             //   bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.ExtraLife];
-               // break;
+            // case ItemScript.ItemTypes.ExtraLife:
+            //   bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.ExtraLife];
+            // break;
             case ItemScript.ItemTypes.LifeEnergyBig:
                 bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.LifeEnergyBig];
                 break;
@@ -737,15 +731,7 @@ public class GameManager : MonoBehaviour
             case ItemScript.ItemTypes.WeaponEnergySmall:
                 bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.WeaponEnergySmall];
                 break;
-           // case ItemScript.ItemTypes.MagnetBeam:
-            //    bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.MagnetBeam];
-            //    break;
-            //case ItemScript.ItemTypes.WeaponPart:
-            //    bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.];
-             //   break;
-           // case ItemScript.ItemTypes.Yashichi:
-           //     bonusItem = assetPalette.itemPrefabs[(int)AssetPalette.ItemList.Yashichi];
-           //     break;
+
         }
 
         // return bonus item prefab

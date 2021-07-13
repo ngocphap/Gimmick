@@ -200,5 +200,10 @@ public class EnemyController : MonoBehaviour
             player.HitSide(transform.position.x > player.transform.position.x);
             player.TakeDamage(this.contactDamage);
         }
+        
+        if(other.gameObject.CompareTag("Ground"))
+        {
+            Defeat();
+        }
     }
 }

@@ -66,25 +66,7 @@ public class MambuController : MonoBehaviour
             return;
         }
 
-        // Mambu has two states - Closed and Open - and alternates between them while in play
-        //   Closed - invincible (set in animation) and moves across the screen for closedTimer time 
-        //            when closedTimer expires then switches to his Open state and sets two timers 
-        //            openTimer (how long his shell remains open) and 
-        //            shootTimer (how long to wait before shooting his 8 bullets) 
-        //            an alternative to the shootTimer approach could be to define a length to his 
-        //            Open animation and add another animation event to do the shooting - I took this
-        //            approach when I created Screw Driver because he does multiple firings - but Mambu 
-        //            is a single shot so I just use a timer instead of dragging out the animation
-        //     Open - vulnerable to bullets (set in animation) and doesn't move on screen. animation 
-        //            switches to Open, shootTimer counts down then shoots his bullets when time is up. 
-        //            shootTimer is half of how long his shell stays open, so being one second open 
-        //            he fires at half a second in. there is a flag isShooting that is false initially 
-        //            and once he fires gets set to true so he doesn't keep firing - this ensures a single 
-        //            occurrence. openTimer counts down while in this state and once expires switches to 
-        //            his Closed state, sets closedTimer, and resets isShooting back to false.
-        // Note: the invincibility doesn't have to be set via animation events, they could be set during 
-        //       state changes by calling enemyController.Invincible(bool); however I wanted to show 
-        //       how to use the animations events for learning purposes. 
+       
         switch (mambuState)
         {
             case MambuState.Closed:

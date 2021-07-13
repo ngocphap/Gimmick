@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class BombManController : MonoBehaviour
 {
@@ -52,6 +51,22 @@ public class BombManController : MonoBehaviour
     public enum MoveDirections { Left, Right };
     [SerializeField] MoveDirections moveDirection = MoveDirections.Left;
 
+    /* fixed - 12.7.2021 */
+    private AIState ais;
+    public enum AIState
+    {
+        Idle,
+        Attack,
+        Observe,
+        Die
+    }
+
+    private int spawnBombNum = 0;
+    [SerializeField] GameObject enemyDenBombPrefab;
+    List<GameObject> edBombList;
+
+    //====================
+
     void Awake()
     {
         enemyController = GetComponent<EnemyController>();
@@ -59,6 +74,11 @@ public class BombManController : MonoBehaviour
         box2d = enemyController.GetComponent<BoxCollider2D>();
         rb2d = enemyController.GetComponent<Rigidbody2D>();
         sprite = enemyController.GetComponent<SpriteRenderer>();
+
+        /* fixed - 12.7.2021 */
+        ais = AIState.Idle;
+        edBombList = new List<GameObject>();
+        //=============
     }
 
     // Start is called before the first frame update
@@ -66,23 +86,28 @@ public class BombManController : MonoBehaviour
     {
         // sprite sheet images face left
         // switch to facing left if it's set
-        isFacingRight = false;
-        if (moveDirection == MoveDirections.Right)
-        {
-            isFacingRight = true;
-            enemyController.Flip();
-        }
+        //isFacingRight = false;
+        //if (moveDirection == MoveDirections.Right)
+        //{
+            //isFacingRight = true;
+            //enemyController.Flip();
+        //}
+        //isFacingRight = true;
+        ///enemyController.Flip();
 
-        // give bombman his weapon
-        NewBomb();
+        /* fixed - 12.7.2021 */
+
+        //NewBomb();// give bombman his weapon
 
         // start with being able to jump or throw bombs
         canJump = true;
-        canThrow = true;
-        bombThrowCount = ChooseBombCount();
+            canThrow = true;
 
-        // get a reference to the player to watch his position
-        player = GameObject.FindGameObjectWithTag("Player");
+            //bombThrowCount = ChooseBombCount();
+
+            // get a reference to the player to watch his position
+        
+            player = GameObject.FindGameObjectWithTag("Player");
     }
 
     void FixedUpdate()
@@ -109,8 +134,9 @@ public class BombManController : MonoBehaviour
                 canJump = true;
                 canThrow = true;
                 isJumping = false;
-                bombThrowCount = ChooseBombCount();
-                animator.Play("BombMan_Idle");
+                /* fixed - 12.7.2021 */
+                //bombThrowCount = ChooseBombCount();
+                animator.Play("BombMan_Run");
                 rb2d.velocity = Vector2.zero;
             }
         }
@@ -119,7 +145,92 @@ public class BombManController : MonoBehaviour
         Debug.DrawRay(box_origin + new Vector3(box2d.bounds.extents.x, 0), Vector2.down * (box2d.bounds.extents.y / 4f + raycastDistance), raycastColor);
         Debug.DrawRay(box_origin - new Vector3(box2d.bounds.extents.x, 0), Vector2.down * (box2d.bounds.extents.y / 4f + raycastDistance), raycastColor);
         Debug.DrawRay(box_origin - new Vector3(box2d.bounds.extents.x, box2d.bounds.extents.y / 4f + raycastDistance), Vector2.right * (box2d.bounds.extents.x * 2), raycastColor);
+
+        /* fixed - 12.7.2021 */
+        OnAIBehaviourLoop();
     }
+
+    /* fixed - 12.7.2021 */
+    //==========================================================
+
+    void OnAIBehaviourLoop()
+    {
+        GameObject player = GameObject.Find("Player");
+        if (player != null)
+        {
+            //loop status
+            switch (ais)
+            {
+                case AIState.Idle:
+                    Vector2 distance = player.transform.position - transform.position;
+                    spawnBombNum = 6; //first spawn
+                    ais = (distance.magnitude <= 8.5f) ? AIState.Attack : AIState.Idle;
+                    break;
+
+                case AIState.Attack:
+                    Invoke("SpawnBomb", 0.678f);
+                    break;
+
+                case AIState.Observe:
+                    spawnBombNum = 1; //second spawn and then
+                    AttackingObserving();
+                    break;
+
+                case AIState.Die:
+                    break;
+            }
+        }
+    }
+
+    void SpawnBomb()
+    {
+        //first spawn => 6 enemies | second then => only 1 enemy until died
+        if (edBombList.Count >= spawnBombNum)
+        {
+            transform.Rotate(0, 180f, 0);
+            ais = AIState.Observe;
+            return; //no spawn
+        }
+        GameObject eb = Instantiate(enemyDenBombPrefab);
+        eb.name = "EnemyBomb" + (edBombList.Count + 1);
+        edBombList.Add(eb);
+        eb.SetActive(true);
+        int index = edBombList.Count - 1;
+        eb.transform.position = (index == 0) ? new Vector2(transform.position.x, 3) : new Vector2(transform.position.x + (index * 0.789f), 3 + (index * 0.678f));
+        eb.GetComponent<Rigidbody2D>().AddForce(eb.transform.up * 1.23f, ForceMode2D.Force);
+
+        //animator.Play("BombMan_Throw", -1, 0);
+        //animator.speed = 0;
+        // bombman can start throwing or jumping
+        //canThrow = true;
+        //canJump = true;
+        Jump();
+
+        animator.Play("BombMan_Throw");
+        animator.speed = 1;
+    }
+
+    void AttackingObserving()
+    {
+        if(edBombList.Count > 0)
+        {
+            for(int i=0; i<edBombList.Count; i++)
+            {
+                GameObject eb = edBombList[i];
+                if(eb == null)
+                    edBombList.RemoveAt(i);
+                Invoke("AttackingObserving", 1.5f);
+            }
+        }
+        else
+        {
+            ais = AIState.Attack;
+        }
+    }
+
+    //==========================================================
+
+
 
     // Update is called once per frame
     void Update()
@@ -131,7 +242,10 @@ public class BombManController : MonoBehaviour
         }
 
         // change facing direction depending where player is
-        if (player.transform.position.x < transform.position.x)
+
+        /* fixed - 12.7.2021 */
+        
+       /* if (player.transform.position.x < transform.position.x)
         {
             if (isFacingRight)
             {
@@ -146,13 +260,14 @@ public class BombManController : MonoBehaviour
                 isFacingRight = !isFacingRight;
                 enemyController.Flip();
             }
-        }
+        }*/
 
         // distance between bombman and the player
-        playerDistance = Vector2.Distance(player.transform.position, transform.position);
+        //playerDistance = Vector2.Distance(player.transform.position, transform.position);
+        
 
         // do bombman ai logic if it's enabled
-        if (enableAI)
+        /*if (enableAI)
         {
             if (isGrounded)
             {
@@ -187,6 +302,8 @@ public class BombManController : MonoBehaviour
             }
         }
 
+        */
+
         // just to see our cool bomb toss and catch pose
         // it'll be removed when we do the boss fight animation intro
         if (Input.GetKeyDown(KeyCode.R))
@@ -195,58 +312,44 @@ public class BombManController : MonoBehaviour
         }
     }
 
+
+    /* fixed - 12.7.2021 */
+    /*
     void Launch()
     {
         // we don't want the bomb to land exactly in the player's position
         float offset = 0.25f;
         if (player.transform.position.x > transform.position.x) offset *= -1f;
         // set up the bomb properties and launch it
-        bomb.GetComponent<BombScript>().SetContactDamageValue(4);
-        bomb.GetComponent<BombScript>().SetExplosionDamageValue(4);
-        bomb.GetComponent<BombScript>().SetExplosionDelay(0);
-        bomb.GetComponent<BombScript>().SetCollideWithTags("Player");
-        bomb.GetComponent<BombScript>().SetSourcePosition(handPos.position);
-        bomb.GetComponent<BombScript>().SetTargetPosition(player.transform.position);
-        bomb.GetComponent<BombScript>().SetTargetOffset(offset);
-        bomb.GetComponent<BombScript>().SetHeight(1f);
-        bomb.GetComponent<BombScript>().Bounces(false);
-        bomb.GetComponent<BombScript>().Launch(true);
-        /* 
-         * this block of code will be for how to set up MegaMan's hyperbomb usage
-         * and moved out when we get to the boss fight and weapon part collection
-         * 
-        bomb.GetComponent<BombScript>().SetContactDamageValue(0);
-        bomb.GetComponent<BombScript>().SetExplosionDamageValue(4);
-        bomb.GetComponent<BombScript>().SetExplosionDelay(3f);
-        bomb.GetComponent<BombScript>().SetCollideWithTags("Enemy");
-        bomb.GetComponent<BombScript>().SetDirection(Vector2.right);
-        bomb.GetComponent<BombScript>().SetVelocity(new Vector2(2f, 1.5f));
-        bomb.GetComponent<BombScript>().Bounces(true);
-        bomb.GetComponent<BombScript>().Launch();
-        */
-        // detach the bomb from the hand position
-        bomb.transform.parent = null;
-    }
 
-    void Pose()
-    {
-        // the animation event calls for tossing the bomb up - TossBomb()
-        animator.Play("BombMan_Pose");
-        animator.speed = 1;
+        if (bomb != null)
+        {
+            bomb.GetComponent<BombScript>().SetContactDamageValue(4);
+            bomb.GetComponent<BombScript>().SetExplosionDamageValue(4);
+            bomb.GetComponent<BombScript>().SetExplosionDelay(0);
+            bomb.GetComponent<BombScript>().SetCollideWithTags("Player");
+            bomb.GetComponent<BombScript>().SetSourcePosition(handPos.position);
+            bomb.GetComponent<BombScript>().SetTargetPosition(player.transform.position);
+            bomb.GetComponent<BombScript>().SetTargetOffset(offset);
+            bomb.GetComponent<BombScript>().SetHeight(1f);
+            bomb.GetComponent<BombScript>().Bounces(false);
+            bomb.GetComponent<BombScript>().Launch(true);
+            
+             // this block of code will be for how to set up MegaMan's hyperbomb usage
+            // and moved out when we get to the boss fight and weapon part collection 
+            bomb.GetComponent<BombScript>().SetContactDamageValue(0);
+            bomb.GetComponent<BombScript>().SetExplosionDamageValue(4);
+            bomb.GetComponent<BombScript>().SetExplosionDelay(3f);
+            bomb.GetComponent<BombScript>().SetCollideWithTags("Enemy");
+            bomb.GetComponent<BombScript>().SetDirection(Vector2.right);
+            bomb.GetComponent<BombScript>().SetVelocity(new Vector2(2f, 1.5f));
+            bomb.GetComponent<BombScript>().Bounces(true);
+            bomb.GetComponent<BombScript>().Launch();
+            // detach the bomb from the hand position
+            bomb.transform.parent = null;
+        }
     }
-
-    void TossBomb()
-    {
-        // set the bomb to solid and a dynamic rigidbody
-        bomb.GetComponent<CircleCollider2D>().isTrigger = false;
-        bomb.GetComponent<Rigidbody2D>().isKinematic = false;
-        // give the bomb some vertical push to leave his hand
-        bomb.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 3f);
-        // detach the bomb from the hand position
-        bomb.transform.parent = null;
-        // start the coroutine to catch the bomb
-        StartCoroutine(CatchBombCo());
-    }
+    */
 
     IEnumerator CatchBombCo()
     {
@@ -276,6 +379,8 @@ public class BombManController : MonoBehaviour
         }
     }
 
+    /* fixed - 12.7.2021 */
+    /*
     void PrepareThrow()
     {
         // reset the animation
@@ -286,18 +391,6 @@ public class BombManController : MonoBehaviour
         // bombman can start throwing or jumping
         canThrow = true;
         canJump = true;
-    }
-
-    void Throw()
-    {
-        // the animaion event calls for launching the bomb - Launch()
-        animator.Play("BombMan_Throw");
-        animator.speed = 1;
-        // bombman has to wait until the bomb explodes before doing anything else
-        canThrow = false;
-        canJump = false;
-        // one less bomb to throw
-        bombThrowCount--;
     }
 
     void NewBomb()
@@ -318,6 +411,42 @@ public class BombManController : MonoBehaviour
             bomb.transform.Rotate(0, 180f, 0);
         }
     }
+
+    void Throw()
+    {
+        // the animaion event calls for launching the bomb - Launch()
+        animator.Play("BombMan_Throw");
+        animator.speed = 1;
+        // bombman has to wait until the bomb explodes before doing anything else
+        canThrow = false;
+        canJump = false;
+        // one less bomb to throw
+        bombThrowCount--;
+    }
+    */
+
+    void Pose()
+    {
+        // the animation event calls for tossing the bomb up - TossBomb()
+        animator.Play("BombMan_Pose");
+        animator.speed = 1;
+    }
+
+    /*
+    void TossBomb()
+    {
+        // set the bomb to solid and a dynamic rigidbody
+        bomb.GetComponent<CircleCollider2D>().isTrigger = false;
+        bomb.GetComponent<Rigidbody2D>().isKinematic = false;
+        // give the bomb some vertical push to leave his hand
+        bomb.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 3f);
+        // detach the bomb from the hand position
+        bomb.transform.parent = null;
+        // start the coroutine to catch the bomb
+        StartCoroutine(CatchBombCo());
+    }
+
+    */
 
     int ChooseBombCount()
     {
@@ -397,9 +526,9 @@ public class BombManController : MonoBehaviour
                 }
             }
             // default to these jump styles (Jump2 for forward, Jump3 for backward)
-            jumpAnimation = 
-                ((player.transform.position.x <= transform.position.x && jumpDirection == -1f) || 
-                (transform.position.x <= player.transform.position.x && jumpDirection == 1f)) 
+            jumpAnimation =
+                ((player.transform.position.x <= transform.position.x && jumpDirection == -1f) ||
+                (transform.position.x <= player.transform.position.x && jumpDirection == 1f))
                 ? "BombMan_Run" : "BombMan_Idle";
             // jump style Jump1 for shortest jump
             if (jumpIndex == 0) jumpAnimation = "BombMan_Jump";

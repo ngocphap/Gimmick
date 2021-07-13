@@ -11,6 +11,9 @@ TagManager:
   - Ground
   - MovingPlatfrom
   - GroundSlip
+  - Bomb
+  - BigStump
+  - BlackSide
   layers:
   - Default
   - TransparentFX

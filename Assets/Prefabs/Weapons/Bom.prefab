@@ -60,9 +60,10 @@ GameObject:
   - component: {fileID: 1362261151485084175}
   - component: {fileID: 1362261151485084174}
   - component: {fileID: 1362261151485084173}
+  - component: {fileID: 853890295940903642}
   m_Layer: 10
   m_Name: Bom
-  m_TagString: Untagged
+  m_TagString: Bomb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -186,9 +187,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   contactDamage: 1
-  explosionDamage: 4
+  explosionDamage: 1
   explosionClip: {fileID: 8300000, guid: 4323113b6c38d3345bed87fd87ff1c35, type: 3}
-  explodeDelay: 3
+  explodeDelay: 2
   collideWithTags: []
   gravity: 0
   height: 1
@@ -200,3 +201,29 @@ MonoBehaviour:
   launchVelocity: {x: 13.33, y: 1.5}
   bounceMaterial: {fileID: 6200000, guid: ec68e069c307c274e8d38eaf4c289f40, type: 2}
   explodeEffectPrefab: {fileID: 3695105044947109386, guid: f4e80ee18579ccd49ba46d8c9b504dda, type: 3}
+--- !u!61 &853890295940903642
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362261151485084172}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.02621591, y: 0.017982543}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.47203636, y: 0.42790627}
+    oldSize: {x: 0.9375, y: 1}
+    newSize: {x: 0.9375, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.89177763}
+  m_EdgeRadius: 0

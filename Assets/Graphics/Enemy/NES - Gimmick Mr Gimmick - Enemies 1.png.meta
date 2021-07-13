@@ -1,0 +1,5712 @@
+fileFormatVersion: 2
+guid: 76ccb7e7dff3af5478c8c876741c872a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6817471344166914415
+    second: NES - Gimmick Mr Gimmick - Enemies 1_0
+  - first:
+      213: -6520412805425435488
+    second: NES - Gimmick Mr Gimmick - Enemies 1_1
+  - first:
+      213: -2652910727759696750
+    second: NES - Gimmick Mr Gimmick - Enemies 1_2
+  - first:
+      213: -961213751424930178
+    second: NES - Gimmick Mr Gimmick - Enemies 1_3
+  - first:
+      213: -2060558632822368708
+    second: NES - Gimmick Mr Gimmick - Enemies 1_4
+  - first:
+      213: -753658506283189235
+    second: NES - Gimmick Mr Gimmick - Enemies 1_5
+  - first:
+      213: -5513024673761683303
+    second: NES - Gimmick Mr Gimmick - Enemies 1_6
+  - first:
+      213: 2268814279768266652
+    second: NES - Gimmick Mr Gimmick - Enemies 1_7
+  - first:
+      213: 3696465122307339247
+    second: NES - Gimmick Mr Gimmick - Enemies 1_8
+  - first:
+      213: -1601706259417738495
+    second: NES - Gimmick Mr Gimmick - Enemies 1_9
+  - first:
+      213: -6342431292590201799
+    second: NES - Gimmick Mr Gimmick - Enemies 1_10
+  - first:
+      213: -2163638394848237173
+    second: NES - Gimmick Mr Gimmick - Enemies 1_11
+  - first:
+      213: -5024291030182177275
+    second: NES - Gimmick Mr Gimmick - Enemies 1_12
+  - first:
+      213: -5872798581445995448
+    second: NES - Gimmick Mr Gimmick - Enemies 1_13
+  - first:
+      213: 335727275897198424
+    second: NES - Gimmick Mr Gimmick - Enemies 1_14
+  - first:
+      213: 8158578793485909189
+    second: NES - Gimmick Mr Gimmick - Enemies 1_15
+  - first:
+      213: -3262261134810142957
+    second: NES - Gimmick Mr Gimmick - Enemies 1_16
+  - first:
+      213: 7328955305558004851
+    second: NES - Gimmick Mr Gimmick - Enemies 1_17
+  - first:
+      213: -7118641553682705502
+    second: NES - Gimmick Mr Gimmick - Enemies 1_18
+  - first:
+      213: 5394362480725213828
+    second: NES - Gimmick Mr Gimmick - Enemies 1_19
+  - first:
+      213: -155691855410252457
+    second: NES - Gimmick Mr Gimmick - Enemies 1_20
+  - first:
+      213: -2137429280002951872
+    second: NES - Gimmick Mr Gimmick - Enemies 1_21
+  - first:
+      213: 2040203127919131173
+    second: NES - Gimmick Mr Gimmick - Enemies 1_22
+  - first:
+      213: -2106923854801163353
+    second: NES - Gimmick Mr Gimmick - Enemies 1_23
+  - first:
+      213: -2622241073031560163
+    second: NES - Gimmick Mr Gimmick - Enemies 1_24
+  - first:
+      213: 1473591743958116181
+    second: NES - Gimmick Mr Gimmick - Enemies 1_25
+  - first:
+      213: 5991391744752188025
+    second: NES - Gimmick Mr Gimmick - Enemies 1_26
+  - first:
+      213: 999768583397125773
+    second: NES - Gimmick Mr Gimmick - Enemies 1_27
+  - first:
+      213: -1188376922217698454
+    second: NES - Gimmick Mr Gimmick - Enemies 1_28
+  - first:
+      213: -5333057773780265678
+    second: NES - Gimmick Mr Gimmick - Enemies 1_29
+  - first:
+      213: -6037954425583367600
+    second: NES - Gimmick Mr Gimmick - Enemies 1_30
+  - first:
+      213: 9155057007319820111
+    second: NES - Gimmick Mr Gimmick - Enemies 1_31
+  - first:
+      213: 6526900822067412834
+    second: NES - Gimmick Mr Gimmick - Enemies 1_32
+  - first:
+      213: -8679717621551108989
+    second: NES - Gimmick Mr Gimmick - Enemies 1_33
+  - first:
+      213: -9212509593933804184
+    second: NES - Gimmick Mr Gimmick - Enemies 1_34
+  - first:
+      213: -8502195063246047662
+    second: NES - Gimmick Mr Gimmick - Enemies 1_35
+  - first:
+      213: -5846757682371221911
+    second: NES - Gimmick Mr Gimmick - Enemies 1_36
+  - first:
+      213: -535241010993128702
+    second: NES - Gimmick Mr Gimmick - Enemies 1_37
+  - first:
+      213: -3458016565608601896
+    second: NES - Gimmick Mr Gimmick - Enemies 1_38
+  - first:
+      213: -231380368481366745
+    second: NES - Gimmick Mr Gimmick - Enemies 1_39
+  - first:
+      213: -7112475894688054511
+    second: NES - Gimmick Mr Gimmick - Enemies 1_40
+  - first:
+      213: 8718365809997316113
+    second: NES - Gimmick Mr Gimmick - Enemies 1_41
+  - first:
+      213: 9087598107294553912
+    second: NES - Gimmick Mr Gimmick - Enemies 1_42
+  - first:
+      213: -6555134791618878469
+    second: NES - Gimmick Mr Gimmick - Enemies 1_43
+  - first:
+      213: 9067151523724938746
+    second: NES - Gimmick Mr Gimmick - Enemies 1_44
+  - first:
+      213: -3048204584346709024
+    second: NES - Gimmick Mr Gimmick - Enemies 1_45
+  - first:
+      213: -3474791798141352731
+    second: NES - Gimmick Mr Gimmick - Enemies 1_46
+  - first:
+      213: -8135376564777377315
+    second: NES - Gimmick Mr Gimmick - Enemies 1_47
+  - first:
+      213: -1965869491278498870
+    second: NES - Gimmick Mr Gimmick - Enemies 1_48
+  - first:
+      213: 6375910051375157420
+    second: NES - Gimmick Mr Gimmick - Enemies 1_49
+  - first:
+      213: -498642599782631893
+    second: NES - Gimmick Mr Gimmick - Enemies 1_50
+  - first:
+      213: 8890233777350330763
+    second: NES - Gimmick Mr Gimmick - Enemies 1_51
+  - first:
+      213: -487317973722664019
+    second: NES - Gimmick Mr Gimmick - Enemies 1_52
+  - first:
+      213: 3579919747634774349
+    second: NES - Gimmick Mr Gimmick - Enemies 1_53
+  - first:
+      213: 5315774856927553563
+    second: NES - Gimmick Mr Gimmick - Enemies 1_54
+  - first:
+      213: -1516201719948672675
+    second: NES - Gimmick Mr Gimmick - Enemies 1_55
+  - first:
+      213: 2040728274080387503
+    second: NES - Gimmick Mr Gimmick - Enemies 1_56
+  - first:
+      213: -392372515871845308
+    second: NES - Gimmick Mr Gimmick - Enemies 1_57
+  - first:
+      213: -5114279918561721737
+    second: NES - Gimmick Mr Gimmick - Enemies 1_58
+  - first:
+      213: -1740198585112490281
+    second: NES - Gimmick Mr Gimmick - Enemies 1_59
+  - first:
+      213: -4106641708546254928
+    second: NES - Gimmick Mr Gimmick - Enemies 1_60
+  - first:
+      213: 574953230527204831
+    second: NES - Gimmick Mr Gimmick - Enemies 1_61
+  - first:
+      213: -3678156256718829716
+    second: NES - Gimmick Mr Gimmick - Enemies 1_62
+  - first:
+      213: -4893626713787247687
+    second: NES - Gimmick Mr Gimmick - Enemies 1_63
+  - first:
+      213: -5235385443143826867
+    second: NES - Gimmick Mr Gimmick - Enemies 1_64
+  - first:
+      213: -1347892691532411248
+    second: NES - Gimmick Mr Gimmick - Enemies 1_65
+  - first:
+      213: -1627333956820371965
+    second: NES - Gimmick Mr Gimmick - Enemies 1_66
+  - first:
+      213: -6954968207385919853
+    second: NES - Gimmick Mr Gimmick - Enemies 1_67
+  - first:
+      213: -1482914010410786071
+    second: NES - Gimmick Mr Gimmick - Enemies 1_68
+  - first:
+      213: 6038290572645045735
+    second: NES - Gimmick Mr Gimmick - Enemies 1_69
+  - first:
+      213: 4802595748955634433
+    second: NES - Gimmick Mr Gimmick - Enemies 1_70
+  - first:
+      213: 9211531566581109639
+    second: NES - Gimmick Mr Gimmick - Enemies 1_71
+  - first:
+      213: 5759037539872669382
+    second: NES - Gimmick Mr Gimmick - Enemies 1_72
+  - first:
+      213: -2531945090290278581
+    second: NES - Gimmick Mr Gimmick - Enemies 1_73
+  - first:
+      213: -7033625080226361195
+    second: NES - Gimmick Mr Gimmick - Enemies 1_74
+  - first:
+      213: 6361301695127642479
+    second: NES - Gimmick Mr Gimmick - Enemies 1_75
+  - first:
+      213: -6154763221115307803
+    second: NES - Gimmick Mr Gimmick - Enemies 1_76
+  - first:
+      213: 6774453802648723630
+    second: NES - Gimmick Mr Gimmick - Enemies 1_77
+  - first:
+      213: -5907751403687705607
+    second: NES - Gimmick Mr Gimmick - Enemies 1_78
+  - first:
+      213: 6735447515344105999
+    second: NES - Gimmick Mr Gimmick - Enemies 1_79
+  - first:
+      213: 642365582774676415
+    second: NES - Gimmick Mr Gimmick - Enemies 1_80
+  - first:
+      213: -5648530806726143719
+    second: NES - Gimmick Mr Gimmick - Enemies 1_81
+  - first:
+      213: -3541572800116926225
+    second: NES - Gimmick Mr Gimmick - Enemies 1_82
+  - first:
+      213: -4501403494313303238
+    second: NES - Gimmick Mr Gimmick - Enemies 1_83
+  - first:
+      213: 5539946918738249173
+    second: NES - Gimmick Mr Gimmick - Enemies 1_84
+  - first:
+      213: -7709479692046277322
+    second: NES - Gimmick Mr Gimmick - Enemies 1_85
+  - first:
+      213: -6808007302143482703
+    second: NES - Gimmick Mr Gimmick - Enemies 1_86
+  - first:
+      213: -7489520422079414420
+    second: NES - Gimmick Mr Gimmick - Enemies 1_87
+  - first:
+      213: 4922670981895509948
+    second: NES - Gimmick Mr Gimmick - Enemies 1_88
+  - first:
+      213: -4326684029204185098
+    second: NES - Gimmick Mr Gimmick - Enemies 1_89
+  - first:
+      213: 4321681210583024931
+    second: NES - Gimmick Mr Gimmick - Enemies 1_90
+  - first:
+      213: 6258626975970335200
+    second: NES - Gimmick Mr Gimmick - Enemies 1_91
+  - first:
+      213: -6625269819435721362
+    second: NES - Gimmick Mr Gimmick - Enemies 1_92
+  - first:
+      213: -8759414510748915723
+    second: NES - Gimmick Mr Gimmick - Enemies 1_93
+  - first:
+      213: 1315369815862848962
+    second: NES - Gimmick Mr Gimmick - Enemies 1_94
+  - first:
+      213: 778877656971473301
+    second: NES - Gimmick Mr Gimmick - Enemies 1_95
+  - first:
+      213: -5954992459656651789
+    second: NES - Gimmick Mr Gimmick - Enemies 1_96
+  - first:
+      213: -6583423672398996499
+    second: NES - Gimmick Mr Gimmick - Enemies 1_97
+  - first:
+      213: 9149260457149842260
+    second: NES - Gimmick Mr Gimmick - Enemies 1_98
+  - first:
+      213: -14245174467760050
+    second: NES - Gimmick Mr Gimmick - Enemies 1_99
+  - first:
+      213: 6303334718773346175
+    second: NES - Gimmick Mr Gimmick - Enemies 1_100
+  - first:
+      213: -1626675840482808197
+    second: NES - Gimmick Mr Gimmick - Enemies 1_101
+  - first:
+      213: -3852818875276093297
+    second: NES - Gimmick Mr Gimmick - Enemies 1_102
+  - first:
+      213: 1953569366068005076
+    second: NES - Gimmick Mr Gimmick - Enemies 1_103
+  - first:
+      213: -4719925793863781623
+    second: NES - Gimmick Mr Gimmick - Enemies 1_104
+  - first:
+      213: -4959755713663727442
+    second: NES - Gimmick Mr Gimmick - Enemies 1_105
+  - first:
+      213: -6386687667778359152
+    second: NES - Gimmick Mr Gimmick - Enemies 1_106
+  - first:
+      213: 6094374205909340344
+    second: NES - Gimmick Mr Gimmick - Enemies 1_107
+  - first:
+      213: -1405511460627329994
+    second: NES - Gimmick Mr Gimmick - Enemies 1_108
+  - first:
+      213: -6394960212004944214
+    second: NES - Gimmick Mr Gimmick - Enemies 1_109
+  - first:
+      213: 3875632273490212229
+    second: NES - Gimmick Mr Gimmick - Enemies 1_110
+  - first:
+      213: -2235769741559606694
+    second: NES - Gimmick Mr Gimmick - Enemies 1_111
+  - first:
+      213: -1566757125296746006
+    second: NES - Gimmick Mr Gimmick - Enemies 1_112
+  - first:
+      213: 4350673481833892611
+    second: NES - Gimmick Mr Gimmick - Enemies 1_113
+  - first:
+      213: -1534689495973886289
+    second: NES - Gimmick Mr Gimmick - Enemies 1_114
+  - first:
+      213: 7561442387878464852
+    second: NES - Gimmick Mr Gimmick - Enemies 1_115
+  - first:
+      213: 3629322527032027741
+    second: NES - Gimmick Mr Gimmick - Enemies 1_116
+  - first:
+      213: -4841023751151431996
+    second: NES - Gimmick Mr Gimmick - Enemies 1_117
+  - first:
+      213: -319369502633730730
+    second: NES - Gimmick Mr Gimmick - Enemies 1_118
+  - first:
+      213: -2597169974925875426
+    second: NES - Gimmick Mr Gimmick - Enemies 1_119
+  - first:
+      213: 1507433067156026190
+    second: NES - Gimmick Mr Gimmick - Enemies 1_120
+  - first:
+      213: 7033759706870360172
+    second: NES - Gimmick Mr Gimmick - Enemies 1_121
+  - first:
+      213: 5557600892062215854
+    second: NES - Gimmick Mr Gimmick - Enemies 1_122
+  - first:
+      213: -707851244546555253
+    second: NES - Gimmick Mr Gimmick - Enemies 1_123
+  - first:
+      213: -2129340205351431960
+    second: NES - Gimmick Mr Gimmick - Enemies 1_124
+  - first:
+      213: 4243355638987410060
+    second: NES - Gimmick Mr Gimmick - Enemies 1_125
+  - first:
+      213: -2135355440126186403
+    second: NES - Gimmick Mr Gimmick - Enemies 1_126
+  - first:
+      213: -8723267717956490788
+    second: NES - Gimmick Mr Gimmick - Enemies 1_127
+  - first:
+      213: 3473264915123680008
+    second: NES - Gimmick Mr Gimmick - Enemies 1_128
+  - first:
+      213: 8825992895300599809
+    second: NES - Gimmick Mr Gimmick - Enemies 1_129
+  - first:
+      213: -3277986596468972252
+    second: NES - Gimmick Mr Gimmick - Enemies 1_130
+  - first:
+      213: 3617921430620435348
+    second: NES - Gimmick Mr Gimmick - Enemies 1_131
+  - first:
+      213: 2301084431427795443
+    second: NES - Gimmick Mr Gimmick - Enemies 1_132
+  - first:
+      213: -2125289803693011722
+    second: NES - Gimmick Mr Gimmick - Enemies 1_133
+  - first:
+      213: 8262593055851638283
+    second: NES - Gimmick Mr Gimmick - Enemies 1_134
+  - first:
+      213: 5934097748768005296
+    second: NES - Gimmick Mr Gimmick - Enemies 1_135
+  - first:
+      213: 6853577173849281017
+    second: NES - Gimmick Mr Gimmick - Enemies 1_136
+  - first:
+      213: 5037525354194173099
+    second: NES - Gimmick Mr Gimmick - Enemies 1_137
+  - first:
+      213: 7525602784492976858
+    second: NES - Gimmick Mr Gimmick - Enemies 1_138
+  - first:
+      213: 5815647503302004384
+    second: NES - Gimmick Mr Gimmick - Enemies 1_139
+  - first:
+      213: -8100907958805972966
+    second: NES - Gimmick Mr Gimmick - Enemies 1_140
+  - first:
+      213: 6685026057178080901
+    second: NES - Gimmick Mr Gimmick - Enemies 1_141
+  - first:
+      213: 8864320314644481697
+    second: NES - Gimmick Mr Gimmick - Enemies 1_142
+  - first:
+      213: -5391937179269289264
+    second: NES - Gimmick Mr Gimmick - Enemies 1_143
+  - first:
+      213: -6359445182599402532
+    second: NES - Gimmick Mr Gimmick - Enemies 1_144
+  - first:
+      213: 8773006109078567058
+    second: NES - Gimmick Mr Gimmick - Enemies 1_145
+  - first:
+      213: 7396933713653298508
+    second: NES - Gimmick Mr Gimmick - Enemies 1_146
+  - first:
+      213: -8230100047669515783
+    second: NES - Gimmick Mr Gimmick - Enemies 1_147
+  - first:
+      213: 199723782477033184
+    second: NES - Gimmick Mr Gimmick - Enemies 1_148
+  - first:
+      213: -5501792834356204024
+    second: NES - Gimmick Mr Gimmick - Enemies 1_149
+  - first:
+      213: 3752558215047278207
+    second: NES - Gimmick Mr Gimmick - Enemies 1_150
+  - first:
+      213: -5329036770798745067
+    second: NES - Gimmick Mr Gimmick - Enemies 1_151
+  - first:
+      213: 5338773777704627893
+    second: NES - Gimmick Mr Gimmick - Enemies 1_152
+  - first:
+      213: -2669651569084281352
+    second: NES - Gimmick Mr Gimmick - Enemies 1_153
+  - first:
+      213: -1691423481788156263
+    second: NES - Gimmick Mr Gimmick - Enemies 1_154
+  - first:
+      213: -7353006492349538352
+    second: NES - Gimmick Mr Gimmick - Enemies 1_155
+  - first:
+      213: 6947772684710043116
+    second: NES - Gimmick Mr Gimmick - Enemies 1_156
+  - first:
+      213: -2457007200540586090
+    second: NES - Gimmick Mr Gimmick - Enemies 1_157
+  - first:
+      213: 581364762662788198
+    second: NES - Gimmick Mr Gimmick - Enemies 1_158
+  - first:
+      213: -313393834814186307
+    second: NES - Gimmick Mr Gimmick - Enemies 1_159
+  - first:
+      213: 4228054158048449291
+    second: NES - Gimmick Mr Gimmick - Enemies 1_160
+  - first:
+      213: 2192151184617509369
+    second: NES - Gimmick Mr Gimmick - Enemies 1_161
+  - first:
+      213: -3432067505505618414
+    second: NES - Gimmick Mr Gimmick - Enemies 1_162
+  - first:
+      213: 9138314066357576040
+    second: NES - Gimmick Mr Gimmick - Enemies 1_163
+  - first:
+      213: -6442360898694871120
+    second: NES - Gimmick Mr Gimmick - Enemies 1_164
+  - first:
+      213: 3685959113179446763
+    second: NES - Gimmick Mr Gimmick - Enemies 1_165
+  - first:
+      213: -8314914112559957681
+    second: NES - Gimmick Mr Gimmick - Enemies 1_166
+  - first:
+      213: 8324860149941801924
+    second: NES - Gimmick Mr Gimmick - Enemies 1_167
+  - first:
+      213: -4050765462301380020
+    second: NES - Gimmick Mr Gimmick - Enemies 1_168
+  - first:
+      213: 7598389196795583969
+    second: NES - Gimmick Mr Gimmick - Enemies 1_169
+  - first:
+      213: -4162285354815468625
+    second: NES - Gimmick Mr Gimmick - Enemies 1_170
+  - first:
+      213: 6567073827627927351
+    second: NES - Gimmick Mr Gimmick - Enemies 1_171
+  - first:
+      213: -6522401106729258056
+    second: NES - Gimmick Mr Gimmick - Enemies 1_172
+  - first:
+      213: 7818467181874372668
+    second: NES - Gimmick Mr Gimmick - Enemies 1_173
+  - first:
+      213: 6332120691357758979
+    second: NES - Gimmick Mr Gimmick - Enemies 1_174
+  - first:
+      213: -4009146644909402649
+    second: NES - Gimmick Mr Gimmick - Enemies 1_175
+  - first:
+      213: 11825714236944245
+    second: NES - Gimmick Mr Gimmick - Enemies 1_176
+  - first:
+      213: 3549130421488651330
+    second: NES - Gimmick Mr Gimmick - Enemies 1_177
+  - first:
+      213: 6383085266139858371
+    second: NES - Gimmick Mr Gimmick - Enemies 1_178
+  - first:
+      213: 7018137291406681384
+    second: NES - Gimmick Mr Gimmick - Enemies 1_179
+  - first:
+      213: -8054116983373223716
+    second: NES - Gimmick Mr Gimmick - Enemies 1_180
+  - first:
+      213: 1865854252410190929
+    second: NES - Gimmick Mr Gimmick - Enemies 1_181
+  - first:
+      213: 3926876768868711938
+    second: NES - Gimmick Mr Gimmick - Enemies 1_182
+  - first:
+      213: 1095110705539990044
+    second: NES - Gimmick Mr Gimmick - Enemies 1_183
+  - first:
+      213: 8207391419704276582
+    second: NES - Gimmick Mr Gimmick - Enemies 1_184
+  - first:
+      213: 1789287605420832012
+    second: NES - Gimmick Mr Gimmick - Enemies 1_185
+  - first:
+      213: 4618784159837479154
+    second: NES - Gimmick Mr Gimmick - Enemies 1_186
+  - first:
+      213: -4532492075341346494
+    second: NES - Gimmick Mr Gimmick - Enemies 1_187
+  - first:
+      213: -3296950794503871322
+    second: NES - Gimmick Mr Gimmick - Enemies 1_188
+  - first:
+      213: 7122530261010756050
+    second: NES - Gimmick Mr Gimmick - Enemies 1_189
+  - first:
+      213: -1749237059361426054
+    second: NES - Gimmick Mr Gimmick - Enemies 1_190
+  - first:
+      213: 2731774288716525242
+    second: NES - Gimmick Mr Gimmick - Enemies 1_191
+  - first:
+      213: 728210789450415166
+    second: NES - Gimmick Mr Gimmick - Enemies 1_192
+  - first:
+      213: -7967703315393897428
+    second: NES - Gimmick Mr Gimmick - Enemies 1_193
+  - first:
+      213: -3767484626979663433
+    second: NES - Gimmick Mr Gimmick - Enemies 1_194
+  - first:
+      213: -8029900330678804730
+    second: NES - Gimmick Mr Gimmick - Enemies 1_195
+  - first:
+      213: 6962798683479574235
+    second: NES - Gimmick Mr Gimmick - Enemies 1_196
+  - first:
+      213: -8626828767818003610
+    second: NES - Gimmick Mr Gimmick - Enemies 1_197
+  - first:
+      213: 1170699685369566886
+    second: NES - Gimmick Mr Gimmick - Enemies 1_198
+  - first:
+      213: 876523505253617118
+    second: NES - Gimmick Mr Gimmick - Enemies 1_199
+  - first:
+      213: -8844042955375404238
+    second: NES - Gimmick Mr Gimmick - Enemies 1_200
+  - first:
+      213: -1634147764987927585
+    second: NES - Gimmick Mr Gimmick - Enemies 1_201
+  - first:
+      213: -6909501897637045080
+    second: NES - Gimmick Mr Gimmick - Enemies 1_202
+  - first:
+      213: -314753545803681304
+    second: NES - Gimmick Mr Gimmick - Enemies 1_203
+  - first:
+      213: 5698613164901094539
+    second: NES - Gimmick Mr Gimmick - Enemies 1_204
+  - first:
+      213: -519362303118587713
+    second: NES - Gimmick Mr Gimmick - Enemies 1_205
+  - first:
+      213: -2591633033445692801
+    second: NES - Gimmick Mr Gimmick - Enemies 1_206
+  - first:
+      213: -2197286088620746212
+    second: NES - Gimmick Mr Gimmick - Enemies 1_207
+  - first:
+      213: -3595931306504645225
+    second: NES - Gimmick Mr Gimmick - Enemies 1_208
+  - first:
+      213: 191828791052385636
+    second: NES - Gimmick Mr Gimmick - Enemies 1_209
+  - first:
+      213: 6699508373837338535
+    second: NES - Gimmick Mr Gimmick - Enemies 1_210
+  - first:
+      213: -1446632921831476204
+    second: NES - Gimmick Mr Gimmick - Enemies 1_211
+  - first:
+      213: 4893264653198145437
+    second: NES - Gimmick Mr Gimmick - Enemies 1_212
+  - first:
+      213: -2665589739004125800
+    second: NES - Gimmick Mr Gimmick - Enemies 1_213
+  - first:
+      213: -6007877180768994158
+    second: NES - Gimmick Mr Gimmick - Enemies 1_214
+  - first:
+      213: 7717395709799031425
+    second: NES - Gimmick Mr Gimmick - Enemies 1_215
+  - first:
+      213: 1289506633611049622
+    second: NES - Gimmick Mr Gimmick - Enemies 1_216
+  - first:
+      213: -4785437921288134946
+    second: NES - Gimmick Mr Gimmick - Enemies 1_217
+  - first:
+      213: -7457568033688640240
+    second: NES - Gimmick Mr Gimmick - Enemies 1_218
+  - first:
+      213: 3871659615453436275
+    second: NES - Gimmick Mr Gimmick - Enemies 1_219
+  - first:
+      213: -7446492675943768185
+    second: NES - Gimmick Mr Gimmick - Enemies 1_220
+  - first:
+      213: 2412311935319106223
+    second: NES - Gimmick Mr Gimmick - Enemies 1_221
+  - first:
+      213: -2198911898123051924
+    second: NES - Gimmick Mr Gimmick - Enemies 1_222
+  - first:
+      213: 7472668508489473758
+    second: NES - Gimmick Mr Gimmick - Enemies 1_223
+  - first:
+      213: 9101370615263886823
+    second: NES - Gimmick Mr Gimmick - Enemies 1_224
+  - first:
+      213: 3853130279398390969
+    second: NES - Gimmick Mr Gimmick - Enemies 1_225
+  - first:
+      213: -3609967938555218727
+    second: NES - Gimmick Mr Gimmick - Enemies 1_226
+  - first:
+      213: 3012415886299286367
+    second: NES - Gimmick Mr Gimmick - Enemies 1_227
+  - first:
+      213: 6740316584500375326
+    second: NES - Gimmick Mr Gimmick - Enemies 1_228
+  - first:
+      213: -870318581002389629
+    second: NES - Gimmick Mr Gimmick - Enemies 1_229
+  - first:
+      213: -3943444457912359534
+    second: NES - Gimmick Mr Gimmick - Enemies 1_230
+  - first:
+      213: -1586044601670252908
+    second: NES - Gimmick Mr Gimmick - Enemies 1_231
+  - first:
+      213: 1082102259601762688
+    second: NES - Gimmick Mr Gimmick - Enemies 1_232
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 863
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69497721168c9e50800000000000000
+      internalID: 6817471344166914415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 863
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac65bf9917d285a0800000000000000
+      internalID: -6520412805425435488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 863
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c6f03bfb7fe2bd0800000000000000
+      internalID: -2652910727759696750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 844
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ea8119f2519a2f0800000000000000
+      internalID: -961213751424930178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 844
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3612cb37dc6763e0800000000000000
+      internalID: -2060558632822368708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 844
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cf903e4977a85f0800000000000000
+      internalID: -753658506283189235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 844
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998987ab44dcd73b0800000000000000
+      internalID: -5513024673761683303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_7
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 844
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97dbe611927c7f10800000000000000
+      internalID: 2268814279768266652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_8
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 844
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3ffbba17b7c4330800000000000000
+      internalID: 3696465122307339247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 844
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103d2eca4a895c9e0800000000000000
+      internalID: -1601706259417738495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 844
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934e6d0d7582bf7a0800000000000000
+      internalID: -6342431292590201799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_11
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 844
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89aca4e75639f1e0800000000000000
+      internalID: -2163638394848237173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_12
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 844
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5065fc98de1264ab0800000000000000
+      internalID: -5024291030182177275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_13
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 844
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8445e7b3ec0af7ea0800000000000000
+      internalID: -5872798581445995448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_14
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 844
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857134dbd2eb8a400800000000000000
+      internalID: 335727275897198424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_15
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 844
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc33c9cf28193170800000000000000
+      internalID: 8158578793485909189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_16
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 844
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317241738ce1ab2d0800000000000000
+      internalID: -3262261134810142957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_17
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 844
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374df7a150ea5b560800000000000000
+      internalID: 7328955305558004851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_18
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 844
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3586d1931853d90800000000000000
+      internalID: -7118641553682705502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_19
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 844
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482425d7810acda40800000000000000
+      internalID: 5394362480725213828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_20
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 844
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755b9d7151fd6ddf0800000000000000
+      internalID: -155691855410252457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_21
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 844
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045b7e8f4635652e0800000000000000
+      internalID: -2137429280002951872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_22
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 844
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ab2457fe1405c10800000000000000
+      internalID: 2040203127919131173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 819
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aba7c1cae3b2c2e0800000000000000
+      internalID: -2106923854801163353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 819
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14c38623adeb9bd0800000000000000
+      internalID: -2622241073031560163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_25
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 819
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557629a32ef337410800000000000000
+      internalID: 1473591743958116181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_26
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 819
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a79205c03b52350800000000000000
+      internalID: 5991391744752188025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_27
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 828
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e2bf6ca34efdd00800000000000000
+      internalID: 999768583397125773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_28
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 828
+        width: 13
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b21fb4c79028fe0800000000000000
+      internalID: -1188376922217698454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 775
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2351133e53c2df5b0800000000000000
+      internalID: -5333057773780265678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_30
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 775
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a0b1db070e43ca0800000000000000
+      internalID: -6037954425583367600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_31
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 775
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47afb3b7db4d0f70800000000000000
+      internalID: 9155057007319820111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 775
+        width: 37
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f788777b5349a50800000000000000
+      internalID: 6526900822067412834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_33
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 798
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c6fb07fc27b8780800000000000000
+      internalID: -8679717621551108989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_34
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 794
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d82b39557962080800000000000000
+      internalID: -9212509593933804184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_35
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 775
+        width: 9
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256b324f2a2220a80800000000000000
+      internalID: -8502195063246047662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 775
+        width: 11
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9662a768dd42cdea0800000000000000
+      internalID: -5846757682371221911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_37
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 775
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b9886e2217298f0800000000000000
+      internalID: -535241010993128702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_38
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 775
+        width: 9
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6ab734148a200d0800000000000000
+      internalID: -3458016565608601896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_39
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 775
+        width: 11
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d4ba0e7c8f9ccf0800000000000000
+      internalID: -231380368481366745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_40
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 775
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11307977bd86b4d90800000000000000
+      internalID: -7112475894688054511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_41
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 740
+        width: 29
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1100dc6238bddf870800000000000000
+      internalID: 8718365809997316113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_42
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 740
+        width: 29
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837ddc69452ad1e70800000000000000
+      internalID: 9087598107294553912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_43
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 740
+        width: 29
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3a0ca33ab7705a0800000000000000
+      internalID: -6555134791618878469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_44
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 740
+        width: 23
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd4440654ef4dd70800000000000000
+      internalID: 9067151523724938746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_45
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 740
+        width: 23
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e31c43a41a92b5d0800000000000000
+      internalID: -3048204584346709024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_46
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 740
+        width: 23
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e40853154f07cfc0800000000000000
+      internalID: -3474791798141352731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_47
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 740
+        width: 25
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1286e0e16591f80800000000000000
+      internalID: -8135376564777377315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_48
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 740
+        width: 30
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac331910d14d7b4e0800000000000000
+      internalID: -1965869491278498870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_49
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 740
+        width: 30
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca01f042968cb7850800000000000000
+      internalID: 6375910051375157420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_50
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 740
+        width: 24
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26341a82377419f0800000000000000
+      internalID: -498642599782631893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_51
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 740
+        width: 41
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89452d9484706b70800000000000000
+      internalID: 8890233777350330763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_52
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 688
+        width: 31
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3f89382e2bc39f0800000000000000
+      internalID: -487317973722664019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_53
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 688
+        width: 31
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d414d221b0e6ea130800000000000000
+      internalID: 3579919747634774349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 688
+        width: 31
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18ae15711d65c940800000000000000
+      internalID: 5315774856927553563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_55
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 688
+        width: 25
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d518f92a19e55fae0800000000000000
+      internalID: -1516201719948672675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_56
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 688
+        width: 25
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa158a39d8f125c10800000000000000
+      internalID: 2040728274080387503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_57
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 688
+        width: 25
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44415d396430e8af0800000000000000
+      internalID: -392372515871845308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_58
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 688
+        width: 17
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772073cb28d6609b0800000000000000
+      internalID: -5114279918561721737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_59
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 658
+        width: 23
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de8bb75b9299d7e0800000000000000
+      internalID: -1740198585112490281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_60
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 658
+        width: 23
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b71c4ebf174207c0800000000000000
+      internalID: -4106641708546254928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_61
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 658
+        width: 23
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd890cbae4aaf700800000000000000
+      internalID: 574953230527204831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_62
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 658
+        width: 29
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67c4e94f5094fcc0800000000000000
+      internalID: -3678156256718829716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_63
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 658
+        width: 29
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3595d6e68561cb0800000000000000
+      internalID: -4893626713787247687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_64
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 658
+        width: 29
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42492f7dac2857b0800000000000000
+      internalID: -5235385443143826867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_65
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 658
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e8ddd0db25b4de0800000000000000
+      internalID: -1347892691532411248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_66
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 628
+        width: 20
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3067ac4636c8a69e0800000000000000
+      internalID: -1627333956820371965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_67
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 628
+        width: 20
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e70aea34dfa7f90800000000000000
+      internalID: -6954968207385919853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_68
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 628
+        width: 20
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2e3097091ab6be0800000000000000
+      internalID: -1482914010410786071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_69
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 628
+        width: 20
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5191998415cc350800000000000000
+      internalID: 6038290572645045735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_70
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 631
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b3d40736f36a240800000000000000
+      internalID: 4802595748955634433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_71
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 628
+        width: 20
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7835d5fa72fe5df70800000000000000
+      internalID: 9211531566581109639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_72
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 631
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ceff3c31263cef40800000000000000
+      internalID: 5759037539872669382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_73
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 605
+        width: 23
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f147eea59bcdcd0800000000000000
+      internalID: -2531945090290278581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_74
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 605
+        width: 24
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59054d9514b836e90800000000000000
+      internalID: -7033625080226361195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_75
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 605
+        width: 24
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f616c272032e74850800000000000000
+      internalID: 6361301695127642479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_76
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 605
+        width: 24
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e878c0b573e59aa0800000000000000
+      internalID: -6154763221115307803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_77
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 605
+        width: 23
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0eb2647d1b30e50800000000000000
+      internalID: 6774453802648723630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_78
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 605
+        width: 24
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f301e12663730ea0800000000000000
+      internalID: -5907751403687705607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_79
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 605
+        width: 24
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f027f5b44dd197d50800000000000000
+      internalID: 6735447515344105999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_80
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 605
+        width: 24
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbba83918142ae800800000000000000
+      internalID: 642365582774676415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_81
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 605
+        width: 23
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911dc3298236c91b0800000000000000
+      internalID: -5648530806726143719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_82
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 605
+        width: 24
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe858d66d4ec9dec0800000000000000
+      internalID: -3541572800116926225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_83
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 605
+        width: 24
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33e0c21f5dc781c0800000000000000
+      internalID: -4501403494313303238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_84
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 605
+        width: 24
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5c9e5ee58d1ec40800000000000000
+      internalID: 5539946918738249173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_85
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 574
+        width: 35
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6356e70111d620590800000000000000
+      internalID: -7709479692046277322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_86
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 574
+        width: 24
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4e877dd691581a0800000000000000
+      internalID: -6808007302143482703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_87
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 574
+        width: 22
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f3ce77bd0ef0890800000000000000
+      internalID: -7489520422079414420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_88
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 574
+        width: 22
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb751063d27d05440800000000000000
+      internalID: 4922670981895509948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_89
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 574
+        width: 19
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffbde79cc784f3c0800000000000000
+      internalID: -4326684029204185098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_90
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 574
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325084de922b9fb30800000000000000
+      internalID: 4321681210583024931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_91
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 573
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e99364331c1bd650800000000000000
+      internalID: 6258626975970335200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_92
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 573
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dda6f83305e04a0800000000000000
+      internalID: -6625269819435721362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_93
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 573
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7a86e69ee407680800000000000000
+      internalID: -8759414510748915723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_94
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 573
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cda6ced0e1214210800000000000000
+      internalID: 1315369815862848962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_95
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 552
+        width: 23
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591f5433a112fca00800000000000000
+      internalID: 778877656971473301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_96
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 552
+        width: 22
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb190aa8ed9b5da0800000000000000
+      internalID: -5954992459656651789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_97
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 552
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb92c8ec0bf2a4a0800000000000000
+      internalID: -6583423672398996499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_98
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 552
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453c1f139e3b8fe70800000000000000
+      internalID: 9149260457149842260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_99
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 552
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40f51cd6146dcff0800000000000000
+      internalID: -14245174467760050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_100
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 552
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f3fdcb781f97750800000000000000
+      internalID: 6303334718773346175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_101
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 552
+        width: 18
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7eef4b01f2ec69e0800000000000000
+      internalID: -1626675840482808197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_102
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 549
+        width: 20
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f889f3365a9088ac0800000000000000
+      internalID: -3852818875276093297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_103
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 549
+        width: 20
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8819cecf87c1b10800000000000000
+      internalID: 1953569366068005076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_104
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 549
+        width: 20
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903bb8a6f747f7eb0800000000000000
+      internalID: -4719925793863781623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_105
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 549
+        width: 20
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea80c52d4786b2bb0800000000000000
+      internalID: -4959755713663727442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_106
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 520
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090f3be776ded57a0800000000000000
+      internalID: -6386687667778359152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_107
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 520
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b097870d01939450800000000000000
+      internalID: 6094374205909340344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_108
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 520
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c4195f5ce9e7ce0800000000000000
+      internalID: -1405511460627329994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_109
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 520
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa640b2b1998047a0800000000000000
+      internalID: -6394960212004944214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_110
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 520
+        width: 18
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5857c6dc40309c530800000000000000
+      internalID: 3875632273490212229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_111
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 517
+        width: 20
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52d5c20443f8f0e0800000000000000
+      internalID: -2235769741559606694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_112
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 517
+        width: 20
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1106112b2c14ae0800000000000000
+      internalID: -1566757125296746006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_113
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 517
+        width: 20
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bcb6a1b72b06c30800000000000000
+      internalID: 4350673481833892611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_114
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 517
+        width: 20
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa604f7d800b3bae0800000000000000
+      internalID: -1534689495973886289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_115
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 517
+        width: 7
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dc31f1ac3afe860800000000000000
+      internalID: 7561442387878464852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_116
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 517
+        width: 7
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a211ffb91fd5230800000000000000
+      internalID: 3629322527032027741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_117
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 517
+        width: 7
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cec3631c8a31dcb0800000000000000
+      internalID: -4841023751151431996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_118
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 517
+        width: 7
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d5c63212f519bf0800000000000000
+      internalID: -319369502633730730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_119
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 517
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17ab3f0baff4fbd0800000000000000
+      internalID: -2597169974925875426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_120
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 517
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43338a436a7be410800000000000000
+      internalID: 1507433067156026190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_121
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 517
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68a67bdf2fec9160800000000000000
+      internalID: 7033759706870360172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_122
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 517
+        width: 19
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae23ced090902d40800000000000000
+      internalID: 5557600892062215854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_123
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 480
+        width: 23
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b820cfe1b053d26f0800000000000000
+      internalID: -707851244546555253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_124
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 480
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0121e6d501372e0800000000000000
+      internalID: -2129340205351431960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_125
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 480
+        width: 29
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ace7da87d63ea30800000000000000
+      internalID: 4243355638987410060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_126
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 480
+        width: 24
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ca4127a81bd52e0800000000000000
+      internalID: -2135355440126186403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_127
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 480
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd922967a3ab0f680800000000000000
+      internalID: -8723267717956490788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_128
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 480
+        width: 20
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80336c4c904833030800000000000000
+      internalID: 3473264915123680008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_129
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 480
+        width: 24
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1008382b6c93c7a70800000000000000
+      internalID: 8825992895300599809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_130
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 480
+        width: 24
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425a9fade804282d0800000000000000
+      internalID: -3277986596468972252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_131
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 480
+        width: 24
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49377616f50753230800000000000000
+      internalID: 3617921430620435348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_132
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 477
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f97f6549181fef10800000000000000
+      internalID: 2301084431427795443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_133
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 487
+        width: 32
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc4e1e0f247182e0800000000000000
+      internalID: -2125289803693011722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_134
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 487
+        width: 31
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e65a17b90aaa270800000000000000
+      internalID: 8262593055851638283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_135
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 425
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc13c956762a5250800000000000000
+      internalID: 5934097748768005296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_136
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 429
+        width: 52
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f11308b02ccc1f50800000000000000
+      internalID: 6853577173849281017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_137
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 425
+        width: 8
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac74c3ae92e8e540800000000000000
+      internalID: 5037525354194173099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_138
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 425
+        width: 7
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adaf4623cdf407860800000000000000
+      internalID: 7525602784492976858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_139
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 435
+        width: 7
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae0435779455b050800000000000000
+      internalID: 5815647503302004384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_140
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 457
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a183c35c12bc39f80800000000000000
+      internalID: -8100907958805972966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_141
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 425
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586645cb7cbf5cc50800000000000000
+      internalID: 6685026057178080901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_142
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 425
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6c9a96c54640b70800000000000000
+      internalID: 8864320314644481697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_143
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 425
+        width: 34
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daae6204bdfb25b0800000000000000
+      internalID: -5391937179269289264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_144
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 429
+        width: 48
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbe79adc46beb7a0800000000000000
+      internalID: -6359445182599402532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_145
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 429
+        width: 47
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298b5f7239affb970800000000000000
+      internalID: 8773006109078567058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_146
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 425
+        width: 7
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c457a6d950037a660800000000000000
+      internalID: 7396933713653298508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_147
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 425
+        width: 5
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9abb09c9fc8cd80800000000000000
+      internalID: -8230100047669515783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_148
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 425
+        width: 8
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eeadb3d8bf85c200800000000000000
+      internalID: 199723782477033184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_149
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 425
+        width: 8
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ea8602194b5a3b0800000000000000
+      internalID: -5501792834356204024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_150
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 425
+        width: 7
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eedde80d3c31430800000000000000
+      internalID: 3752558215047278207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_151
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 425
+        width: 5
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51acb899a457b06b0800000000000000
+      internalID: -5329036770798745067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_152
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 425
+        width: 5
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be214cf672271a40800000000000000
+      internalID: 5338773777704627893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_153
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 425
+        width: 7
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdcaa6da0e73fad0800000000000000
+      internalID: -2669651569084281352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_154
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 371
+        width: 28
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996334b0e4bd688e0800000000000000
+      internalID: -1691423481788156263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_155
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 371
+        width: 31
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df5d589d8fd4f990800000000000000
+      internalID: -7353006492349538352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_156
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 371
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceddd4422727b6060800000000000000
+      internalID: 6947772684710043116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_157
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 371
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f833908f4f6edd0800000000000000
+      internalID: -2457007200540586090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_158
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 371
+        width: 32
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cd173eb2c611800800000000000000
+      internalID: 581364762662788198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_159
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 371
+        width: 32
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc5a19b7f996abf0800000000000000
+      internalID: -313393834814186307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_160
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 346
+        width: 43
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0357950bd01daa30800000000000000
+      internalID: 4228054158048449291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_161
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 346
+        width: 43
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1141d43e51c6e10800000000000000
+      internalID: 2192151184617509369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_162
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 346
+        width: 43
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2163d21a9c8de50d0800000000000000
+      internalID: -3432067505505618414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_163
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 346
+        width: 43
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861e23bf930d1de70800000000000000
+      internalID: 9138314066357576040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_164
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 346
+        width: 44
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b70d6e45e22896a0800000000000000
+      internalID: -6442360898694871120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_165
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 284
+        width: 62
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedbcadc848272330800000000000000
+      internalID: 3685959113179446763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_166
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 284
+        width: 62
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f493bfe3bad7b9c80800000000000000
+      internalID: -8314914112559957681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_167
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 284
+        width: 59
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3161a0338d78370800000000000000
+      internalID: 8324860149941801924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_168
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 284
+        width: 55
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42fa1f164ac8c7c0800000000000000
+      internalID: -4050765462301380020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_169
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 284
+        width: 56
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed9a2c67b6e27960800000000000000
+      internalID: 7598389196795583969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_170
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 284
+        width: 56
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabc964c5879c36c0800000000000000
+      internalID: -4162285354815468625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_171
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 284
+        width: 56
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73707853adee22b50800000000000000
+      internalID: 6567073827627927351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_172
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 284
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3b9c620c6cb75a0800000000000000
+      internalID: -6522401106729258056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_173
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 284
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30eba75a76c08c60800000000000000
+      internalID: 7818467181874372668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_174
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 284
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306b743483630e750800000000000000
+      internalID: 6332120691357758979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_175
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 242
+        width: 16
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5d9b92e56ac58c0800000000000000
+      internalID: -4009146644909402649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_176
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 242
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fee48ac630a2000800000000000000
+      internalID: 11825714236944245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_177
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 242
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c0d52705b014130800000000000000
+      internalID: 3549130421488651330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_178
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 242
+        width: 18
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5cb430b36459850800000000000000
+      internalID: 6383085266139858371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_179
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 242
+        width: 22
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825a73fceae656160800000000000000
+      internalID: 7018137291406681384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_180
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 242
+        width: 23
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd82992b6470a3090800000000000000
+      internalID: -8054116983373223716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_181
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 242
+        width: 23
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cbf8d8e88d4e910800000000000000
+      internalID: 1865854252410190929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_182
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 242
+        width: 23
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e3725ad911f7630800000000000000
+      internalID: 3926876768868711938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_183
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 242
+        width: 22
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c124071726d923f00800000000000000
+      internalID: 1095110705539990044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_184
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 242
+        width: 34
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666ff08f20386e170800000000000000
+      internalID: 8207391419704276582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_185
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 242
+        width: 23
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c053e1ad893d4d810800000000000000
+      internalID: 1789287605420832012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_186
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 242
+        width: 23
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f06055d8b7391040800000000000000
+      internalID: 4618784159837479154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_187
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 242
+        width: 23
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249810eb87a5911c0800000000000000
+      internalID: -4532492075341346494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_188
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 241
+        width: 32
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4a7ab68b0ee32d0800000000000000
+      internalID: -3296950794503871322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_189
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 241
+        width: 41
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1348d198f48d260800000000000000
+      internalID: 7122530261010756050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_190
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 241
+        width: 35
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7530d0992679b7e0800000000000000
+      internalID: -1749237059361426054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_191
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 204
+        width: 24
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe6e75fd3639e520800000000000000
+      internalID: 2731774288716525242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_192
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 204
+        width: 24
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c7cc2dadf1b1a00800000000000000
+      internalID: 728210789450415166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_193
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 204
+        width: 23
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c9e32ac080d6190800000000000000
+      internalID: -7967703315393897428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_194
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 204
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1d12851b437bbc0800000000000000
+      internalID: -3767484626979663433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_195
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 204
+        width: 22
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f19188130109090800000000000000
+      internalID: -8029900330678804730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_196
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 204
+        width: 23
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd68b5b1384d0a060800000000000000
+      internalID: 6962798683479574235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_197
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 204
+        width: 23
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b461c41f8574880800000000000000
+      internalID: -8626828767818003610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_198
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a65d1549292f3010800000000000000
+      internalID: 1170699685369566886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_199
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 212
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd0ce7eb790a2c00800000000000000
+      internalID: 876523505253617118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_200
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 214
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b9d823ac5a34580800000000000000
+      internalID: -8844042955375404238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_201
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 204
+        width: 22
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3656d04475259e0800000000000000
+      internalID: -1634147764987927585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_202
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 204
+        width: 22
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acd478d1a48c10a0800000000000000
+      internalID: -6909501897637045080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_203
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 204
+        width: 22
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1b3965155c1abf0800000000000000
+      internalID: -314753545803681304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_204
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 204
+        width: 22
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b845b4e1b7a851f40800000000000000
+      internalID: 5698613164901094539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_205
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 204
+        width: 22
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb843ecacbadac8f0800000000000000
+      internalID: -519362303118587713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_206
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 204
+        width: 21
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a2d45bc7ba80cd0800000000000000
+      internalID: -2591633033445692801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_207
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 165
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a5ad1b1fba181e0800000000000000
+      internalID: -2197286088620746212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_208
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 165
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795951f578fa81ec0800000000000000
+      internalID: -3595931306504645225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_209
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 166
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46dbe54e44389a200800000000000000
+      internalID: 191828791052385636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_210
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 166
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a75458de5f69fc50800000000000000
+      internalID: 6699508373837338535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_211
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 165
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41479dda5078cebe0800000000000000
+      internalID: -1446632921831476204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_212
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 165
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97b9d5c64e58e340800000000000000
+      internalID: 4893264653198145437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_213
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 166
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d9bb9514ce10bd0800000000000000
+      internalID: -2665589739004125800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_214
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 144
+        width: 20
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cb612098bbf9ca0800000000000000
+      internalID: -6007877180768994158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_215
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 144
+        width: 22
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182e1b17282b91b60800000000000000
+      internalID: 7717395709799031425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_216
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 144
+        width: 23
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a75ef737f35e110800000000000000
+      internalID: 1289506633611049622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_217
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 144
+        width: 16
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ededfee9095b69db0800000000000000
+      internalID: -4785437921288134946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_218
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 144
+        width: 23
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0152eaf9265618890800000000000000
+      internalID: -7457568033688640240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_219
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 144
+        width: 22
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379d35648e5eab530800000000000000
+      internalID: 3871659615453436275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_220
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 142
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fd2db4d5eb8a890800000000000000
+      internalID: -7446492675943768185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_221
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 106
+        width: 42
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa261289ce04a7120800000000000000
+      internalID: 2412311935319106223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_222
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 106
+        width: 30
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cdefb6745eb71e0800000000000000
+      internalID: -2198911898123051924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_223
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 106
+        width: 16
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede53c4aa6044b760800000000000000
+      internalID: 7472668508489473758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_224
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 106
+        width: 16
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed7bfb7a509e4e70800000000000000
+      internalID: 9101370615263886823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_225
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 26
+        width: 576
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcb7d80391197530800000000000000
+      internalID: 3853130279398390969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_226
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 38
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4fddb4941d6edc0800000000000000
+      internalID: -3609967938555218727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_227
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 5
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bcc92c9404ec920800000000000000
+      internalID: 3012415886299286367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_228
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 5
+        width: 157
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fa1dcc83a6a8d50800000000000000
+      internalID: 6740316584500375326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_229
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 5
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3873ee99cd10ce3f0800000000000000
+      internalID: -870318581002389629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_230
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 5
+        width: 25
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295a6a6a8221649c0800000000000000
+      internalID: -3943444457912359534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_231
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 5
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496c48786dc3df9e0800000000000000
+      internalID: -1586044601670252908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Gimmick Mr Gimmick - Enemies 1_232
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 5
+        width: 25
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089e53a9546640f00800000000000000
+      internalID: 1082102259601762688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
