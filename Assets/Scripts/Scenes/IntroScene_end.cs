@@ -147,14 +147,14 @@ public class IntroScene_end : MonoBehaviour
                 break;
             case IntroStates.InsideLab:
                 // dr. light asks megaman to come over
-                if (UtilityFunctions.InTime(runTime, 6.6f, 30.0f))
+                if (UtilityFunctions.InTime(runTime, 6.6f, 35.0f))
                 {
                    // tmpDialogueText.text = dialogueStrings[4];
                 }
                 
 
                 // switch to next screen fade state (fade out the scene)
-                if (UtilityFunctions.OverTime(runTime, 30.30f))
+                if (UtilityFunctions.OverTime(runTime, 35.60f))
                 {
                     introState = IntroStates.ScreenFade2;
                 }
