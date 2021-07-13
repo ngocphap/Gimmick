@@ -112,9 +112,9 @@ public class GameManager : MonoBehaviour
             case GameStates.MainScene:
                 StartMainScene();
                 break;
-            case GameStates.Scene1_2:
+           /* case GameStates.Scene1_2:
                 StartScene1_2Scene();
-                break;
+                break;*/
             case GameStates.Scene_EndGame:
                 StartScene_EndGame();
                 break;
@@ -142,9 +142,9 @@ public class GameManager : MonoBehaviour
             case GameStates.MainScene:
                 MainSceneLoop();
                 break;
-            case GameStates.Scene1_2:
+           /* case GameStates.Scene1_2:
                 Sceen1_2SceneLoop();
-                break;
+                break;*/
             case GameStates.Scene_EndGame:
                 SceenScene_EndGameLoop();
                 break;
@@ -203,9 +203,9 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("Main Scene");
         }
     }
-    private void StartScene1_2Scene()
+    /*private void StartScene1_2Scene()
     {
-        /* isGameOver = false;
+        *//* isGameOver = false;
          playerReady = true;
          initReadyScreen = true;
          firstMessage = true;
@@ -217,9 +217,9 @@ public class GameManager : MonoBehaviour
          SoundManager.Instance.MusicSource.clip = GameObject.Find("Scene 1_2").GetComponent<MainScene>().musicClip;
          SoundManager.Instance.MusicSource.volume = 0.75f;
          SoundManager.Instance.MusicSource.loop = true;
-         SoundManager.Instance.MusicSource.Play();*/
-    }
-    private void Sceen1_2SceneLoop()
+         SoundManager.Instance.MusicSource.Play();*//*
+    }*/
+    /*private void Sceen1_2SceneLoop()
     {
 
         // scene change triggered by StartNextScene()
@@ -230,7 +230,7 @@ public class GameManager : MonoBehaviour
             gameState = GameStates.Scene1_2;
             SceneManager.LoadScene("Scene 1_2");
         }
-    }
+    }*/
 
 
 
@@ -323,12 +323,20 @@ public class GameManager : MonoBehaviour
 
         }
 
+        /*if (startNextScene)
+        {
+            // can do other things here before loading the next scene
+           startNextScene = false;
+            gameState = GameStates.Scene1_2;
+            SceneManager.LoadScene("Scene 1_2");
+        }*/
+
         if (startNextScene)
         {
             // can do other things here before loading the next scene
             startNextScene = false;
-            gameState = GameStates.Scene1_2;
-            SceneManager.LoadScene("Scene 1_2");
+            gameState = GameStates.Scene_EndGame;
+            SceneManager.LoadScene("Intro Scene endGame");
         }
     }
     public void SavePlayerWeapons()

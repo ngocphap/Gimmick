@@ -226,6 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freezeEnemy: 0
+  hasHealthBar: 0
   scorePoints: 500
   currentHealth: 0
   maxHealth: 1
@@ -245,6 +246,13 @@ MonoBehaviour:
   bulletShootPos: {fileID: 1060820023158418876}
   bulletPrefab: {fileID: 3497284531479725837, guid: 6c9950840dbfd7241aef3fdd4588b421, type: 3}
   explodeEffectPrefab: {fileID: 2213575269795907240, guid: ce039316d5a28c54c9f49b6a8507b64f, type: 3}
+  explodeEffectDestroyDelay: 2
+  TakeDamageEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  DefeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1060820022962608485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,7 +265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d76cd696cbbac94abc3756f53650a93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 0
   openDelay: 2
   closedDelay: 2
   shootDelay: 0.5
